@@ -1,0 +1,1 @@
+/nodes/cristal/work/nekrasov/saved/sa2va-himtok/sa2va_4b_ufo4t_pi3_12f_scanrefer_hf/configuration_intern_vit.py

@@ -1,0 +1,4524 @@
+[
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            57
+        ],
+        "object_name": "trash bin",
+        "description": "The container designated for holding waste and it is the one closest to the door"
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            39
+        ],
+        "object_name": "trash bin",
+        "description": "The container designated for holding waste and it is the one in the middle"
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            65
+        ],
+        "object_name": "trash bin",
+        "description": "The container designated for holding waste and it is the one closest to the window"
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            17
+        ],
+        "object_name": "microwave",
+        "description": "What appliance is used for heating or cooking food quickly using electromagnetic radiation?"
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            10
+        ],
+        "object_name": "monitor",
+        "description": "The device is used to display visual output from a computer and faces two doors and a chair."
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            11
+        ],
+        "object_name": "monitor",
+        "description": "Where can you view the computer screen in the room and it is placed sideways in the room."
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            51
+        ],
+        "object_name": "monitor",
+        "description": "Where can you view the computer screen in the room? and it is the one on the relatively empty table."
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            6
+        ],
+        "object_name": "door",
+        "description": "Where is the entrance or exit to the room? if were entering it, the blank bookshelf would be on the left."
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            24
+        ],
+        "object_name": "door",
+        "description": "Where is the entrance or exit to the room? if were entering it, the blank bookshelf would be on the right."
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            24
+        ],
+        "object_name": "door",
+        "description": "Where is the entrance or exit to the room? if were entering it, the blank bookshelf would be on the right."
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            5
+        ],
+        "object_name": "bookshelf",
+        "description": "Where is the structure used for holding books? It is the one between the two doors."
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            45
+        ],
+        "object_name": "bookshelf",
+        "description": "What item is used to store and organize books in the room? It is the one next to the vacuum cleaner"
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            21
+        ],
+        "object_name": "blinds",
+        "description": "Where are the window coverings used to control light and privacy? It is the one faces two doors and black chair."
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            22
+        ],
+        "object_name": "blinds",
+        "description": "What items are used to block or allow sunlight into the room? It is the one faces red chair."
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            25
+        ],
+        "object_name": "window",
+        "description": "What is the object that allows natural light to enter the room and provides a view outside? It is the one faces red chair."
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            26
+        ],
+        "object_name": "window",
+        "description": "Where is the glass pane located on the wall that can be opened or closed for ventilation? It is the one faces two doors and black chair."
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            79
+        ],
+        "object_name": "trash can",
+        "description": "The container designated for holding waste and it is the one closest to the door."
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            80
+        ],
+        "object_name": "trash can",
+        "description": "The container designated for holding waste and it is the one far away from the door."
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            25
+        ],
+        "object_name": "monitor",
+        "description": "Where is the screen used for displaying computer output and it is closest to the bottle?"
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            18
+        ],
+        "object_name": "monitor",
+        "description": "The device placed on the desk for viewing digital content and the headphone case is in front of it"
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            19
+        ],
+        "object_name": "monitor",
+        "description": "The device placed on the desk for viewing digital content and the keyboard is in front of it"
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            68
+        ],
+        "object_name": "monitor",
+        "description": "The device is used to display visual output from a computer and it is facing to the green decoration"
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            52
+        ],
+        "object_name": "office chair",
+        "description": "Where is the seat designed for use at a desk in the office and it is the one closest to the window?"
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            53
+        ],
+        "object_name": "office chair",
+        "description": "The item used for sitting while working at a desk and the one closest to the desk."
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            50
+        ],
+        "object_name": "chair",
+        "description": "The item used for sitting and the one closest to the door."
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            51
+        ],
+        "object_name": "chair",
+        "description": "The object used for seating in the room and it is besides two fans."
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            84
+        ],
+        "object_name": "phone",
+        "description": "The device used for making calls and communication and it is besides to the green decoration."
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            85
+        ],
+        "object_name": "phone",
+        "description": "The device used for receiving and dialing phone calls and it is near the printer."
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            1
+        ],
+        "object_name": "table",
+        "description": "The object used for meetings and placing items and there are two phones on it"
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            22
+        ],
+        "object_name": "table",
+        "description": "The object used for meetings and placing items. If you were stand in front it, green decoration would be on your left."
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            32
+        ],
+        "object_name": "table",
+        "description": "The object used for meetings and placing items. If you were stand in front it, phone would be on your right"
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            30
+        ],
+        "object_name": "power socket",
+        "description": "The place where electrical devices are plugged in and it is the one near the windows"
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            49
+        ],
+        "object_name": "power socket",
+        "description": "The source of electricity that is mounted on the wall and it is the one near the door"
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            57
+        ],
+        "object_name": "power socket",
+        "description": "The outlet used to charge your electrical appliances and it is the one near the fans"
+    },
+    {
+        "scene_id": "f9f95681fd",
+        "object_id": [
+            24
+        ],
+        "object_name": "pan set",
+        "description": "When it's time to cook a variety of dishes, which collection of cookware would you use on the hob?"
+    },
+    {
+        "scene_id": "f9f95681fd",
+        "object_id": [
+            31,
+            6
+        ],
+        "object_name": "dishwasher",
+        "description": "To clean a load of dirty dishes efficiently, which large kitchen appliance would you load and run?"
+    },
+    {
+        "scene_id": "f9f95681fd",
+        "object_id": [
+            23
+        ],
+        "object_name": "stove",
+        "description": "For frying, boiling, or simmering ingredients, which appliance would you turn on to apply heat directly to your pots and pans?"
+    },
+    {
+        "scene_id": "f9f95681fd",
+        "object_id": [
+            4,
+            5
+        ],
+        "object_name": "kitchen towel",
+        "description": "Where would you find a cloth for drying your hands or wiping up spills during food preparation?"
+    },
+    {
+        "scene_id": "f9f95681fd",
+        "object_id": [
+            8
+        ],
+        "object_name": "fire extinguisher",
+        "description": "In case of an emergency, such as a fire, which safety device should be readily accessible to douse the flames?"
+    },
+    {
+        "scene_id": "f9f95681fd",
+        "object_id": [
+            11
+        ],
+        "object_name": "chopping board",
+        "description": "When you're preparing to slice vegetables or meat, which flat surface would you use to protect the countertops?"
+    },
+    {
+        "scene_id": "f9f95681fd",
+        "object_id": [
+            1,
+            17
+        ],
+        "object_name": "cheese",
+        "description": "If you're about to garnish a dish with a dairy product, from which item would you slice a piece?"
+    },
+    {
+        "scene_id": "f9f95681fd",
+        "object_id": [
+            13
+        ],
+        "object_name": "pinboard",
+        "description": "Where would you pin important notes or reminders so that they're easily visible in the kitchen area?"
+    },
+    {
+        "scene_id": "f9f95681fd",
+        "object_id": [
+            18,
+            20,
+            21
+        ],
+        "object_name": "knife set",
+        "description": "For chopping or slicing ingredients, which set of tools would you select from to make precise cuts?"
+    },
+    {
+        "scene_id": "c5439f4607",
+        "object_id": [
+            3
+        ],
+        "object_name": "laboratory bench",
+        "description": "When the room gets too dim to work on precise tasks, which item on the bench turns on to illuminate the space?"
+    },
+    {
+        "scene_id": "c5439f4607",
+        "object_id": [
+            12
+        ],
+        "object_name": "laboratory cabinet",
+        "description": "In a laboratory, where scientists keep their research and equipment safe, what storage unit is key for organizing and preserving sensitive materials?"
+    },
+    {
+        "scene_id": "c5439f4607",
+        "object_id": [
+            31
+        ],
+        "object_name": "chemical bottle",
+        "description": "Among the numerous containers on the shelves, which one holds chemicals that may react when mixed for experiments?"
+    },
+    {
+        "scene_id": "c5439f4607",
+        "object_id": [
+            33
+        ],
+        "object_name": "faucet",
+        "description": "When cleaning glassware or washing hands after handling chemicals, which plumbing fixture is designed to control the flow of water?"
+    },
+    {
+        "scene_id": "c5439f4607",
+        "object_id": [
+            49
+        ],
+        "object_name": "oscilloscope",
+        "description": "To observe the details of an electrical signal during a circuit test, which piece of equipment will display the necessary waveforms?"
+    },
+    {
+        "scene_id": "c5439f4607",
+        "object_id": [
+            58
+        ],
+        "object_name": "soldering iron",
+        "description": "For joining components in an electrical project, which tool would you heat up to meld metals together?"
+    },
+    {
+        "scene_id": "c5439f4607",
+        "object_id": [
+            67,
+            68,
+            69
+        ],
+        "object_name": "binder",
+        "description": "To keep all your important documents organized and readily accessible for reference, which stationary object would you reach for?"
+    },
+    {
+        "scene_id": "c5439f4607",
+        "object_id": [
+            91
+        ],
+        "object_name": "silicon gun",
+        "description": "During a repair or construction project, which tool would you use to apply adhesives with precision?"
+    },
+    {
+        "scene_id": "c5439f4607",
+        "object_id": [
+            100,
+            101,
+            102,
+            103,
+            104
+        ],
+        "object_name": "alligator clips",
+        "description": "When needing to make temporary connections in an electronic circuit, which small but essential items would you employ?"
+    },
+    {
+        "scene_id": "c5439f4607",
+        "object_id": [
+            105
+        ],
+        "object_name": "wooden stick",
+        "description": "If you need to mix or stir solutions during an experiment, which simple item would you find most useful?"
+    },
+    {
+        "scene_id": "c5439f4607",
+        "object_id": [
+            111
+        ],
+        "object_name": "barcode scanner",
+        "description": "In the process of inventory management or tracking samples, which device would you use to scan codes for quick information retrieval?"
+    },
+    {
+        "scene_id": "f3d64c30f8",
+        "object_id": [
+            48
+        ],
+        "object_name": "vacuum cleaner",
+        "description": "After a day of work, which tool would you use to clean the floors and keep the office tidy?"
+    },
+    {
+        "scene_id": "f3d64c30f8",
+        "object_id": [
+            11,
+            49,
+            50,
+            64,
+            65,
+            66,
+            67,
+            68,
+            130
+        ],
+        "object_name": "crate",
+        "description": "When organizing supplies or transporting items in bulk, which sturdy container might you employ to hold them together?"
+    },
+    {
+        "scene_id": "f3d64c30f8",
+        "object_id": [
+            92,
+            93,
+            94,
+            95
+        ],
+        "object_name": "poster",
+        "description": "To add some inspiration or information to the room, which item on the wall would you look at?"
+    },
+    {
+        "scene_id": "f3d64c30f8",
+        "object_id": [
+            107,
+            126
+        ],
+        "object_name": "jug",
+        "description": "If you're thirsty during a meeting, from which container would you pour yourself a glass of water?"
+    },
+    {
+        "scene_id": "f3d64c30f8",
+        "object_id": [
+            119
+        ],
+        "object_name": "bucket",
+        "description": "In case of a spill or for carrying cleaning supplies, which pail would you grab?"
+    },
+    {
+        "scene_id": "f3d64c30f8",
+        "object_id": [
+            136
+        ],
+        "object_name": "plant pot",
+        "description": "To bring a bit of nature into the office space, which vessel would you choose to hold a green, leafy friend?"
+    },
+    {
+        "scene_id": "f3d64c30f8",
+        "object_id": [
+            150
+        ],
+        "object_name": "windowsill",
+        "description": "When placing a decoration or a small item in front of the pane of glass, which flat surface would serve best?"
+    },
+    {
+        "scene_id": "e398684d27",
+        "object_id": [
+            47
+        ],
+        "object_name": "cabinet door",
+        "description": "When searching for files or office supplies, which part of the furniture would you open to access what's inside?"
+    },
+    {
+        "scene_id": "e398684d27",
+        "object_id": [
+            38,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            31,
+            52,
+            58,
+            59,
+            60,
+            61,
+            14,
+            17,
+            18,
+            19,
+            20,
+            25,
+            26,
+            29,
+            30
+        ],
+        "object_name": "cardboard box",
+        "description": "If you need to store or transport items, which lightweight material container would you choose for packing?"
+    },
+    {
+        "scene_id": "e398684d27",
+        "object_id": [
+            39,
+            28
+        ],
+        "object_name": "umbrella",
+        "description": "On a rainy day when you're heading out, which item would you take to keep yourself dry?"
+    },
+    {
+        "scene_id": "e398684d27",
+        "object_id": [
+            48,
+            49,
+            9,
+            11,
+            12,
+            13
+        ],
+        "object_name": "storage cabinet",
+        "description": "For organizing and securing a large number of items or documents, which robust structure would you use?"
+    },
+    {
+        "scene_id": "e398684d27",
+        "object_id": [
+            53,
+            54,
+            7
+        ],
+        "object_name": "metal sheet",
+        "description": "In the office, where would you find a flat piece of metal used to cover or protect surfaces?"
+    },
+    {
+        "scene_id": "e398684d27",
+        "object_id": [
+            23,
+            24
+        ],
+        "object_name": "cable tray",
+        "description": "To keep electrical wires organized and out of the way, which structure would you use to manage and route them above the workspace?"
+    },
+    {
+        "scene_id": "3f15a9266d",
+        "object_id": [
+            16
+        ],
+        "object_name": "painting",
+        "description": "If you want to add a touch of aesthetic appeal to the room, which colorful object hung on the wall would catch your eye?"
+    },
+    {
+        "scene_id": "3f15a9266d",
+        "object_id": [
+            21
+        ],
+        "object_name": "wall clock",
+        "description": "When keeping track of time spent on a task in the room, which device on the wall would you consult?"
+    },
+    {
+        "scene_id": "3f15a9266d",
+        "object_id": [
+            20,
+            253,
+            254,
+            255,
+            256
+        ],
+        "object_name": "picture",
+        "description": "To add personal charm to the room, which framed item would you look at that captures a moment or a memory?"
+    },
+    {
+        "scene_id": "3f15a9266d",
+        "object_id": [
+            25
+        ],
+        "object_name": "exhaust fan",
+        "description": "If the room gets stuffy and you want to circulate air, which installed device would you switch on?"
+    },
+    {
+        "scene_id": "3f15a9266d",
+        "object_id": [
+            23,
+            24
+        ],
+        "object_name": "ceiling lamp",
+        "description": "As the daylight fades, which overhead device would you use to brighten the room?"
+    },
+    {
+        "scene_id": "3f15a9266d",
+        "object_id": [
+            247,
+            248
+        ],
+        "object_name": "trash bin",
+        "description": "When you need to dispose of waste paper or any small rubbish while working, which container would you use?"
+    },
+    {
+        "scene_id": "3f15a9266d",
+        "object_id": [
+            251
+        ],
+        "object_name": "safe box",
+        "description": "For securing important documents or valuables in the office, which strongbox would you lock them in?"
+    },
+    {
+        "scene_id": "3f15a9266d",
+        "object_id": [
+            271,
+            272,
+            279
+        ],
+        "object_name": "cup",
+        "description": "When you're parched and need a sip of water, which small vessel on the desk would you reach for?"
+    },
+    {
+        "scene_id": "3f15a9266d",
+        "object_id": [
+            280
+        ],
+        "object_name": "pencil holder",
+        "description": "To keep your writing tools organized on the desk, into which container would you place them?"
+    },
+    {
+        "scene_id": "3f15a9266d",
+        "object_id": [
+            282
+        ],
+        "object_name": "mouse pad",
+        "description": "When using the mouse for your computer, which pad would provide a smooth surface for it?"
+    },
+    {
+        "scene_id": "3db0a1c8f3",
+        "object_id": [
+            39
+        ],
+        "object_name": "refrigerator",
+        "description": "When you want to keep your food and drinks cold, which large appliance in the kitchen do you use?"
+    },
+    {
+        "scene_id": "3db0a1c8f3",
+        "object_id": [
+            57
+        ],
+        "object_name": "piano",
+        "description": "If someone wishes to practice a piece of music or perform a melody, which large musical instrument in the room would they use?"
+    },
+    {
+        "scene_id": "3db0a1c8f3",
+        "object_id": [],
+        "object_name": "piano chair,",
+        "description": "When you're seated to play melodies on the musical instrument, on which item would you rest?"
+    },
+    {
+        "scene_id": "3db0a1c8f3",
+        "object_id": [
+            60
+        ],
+        "object_name": "headset",
+        "description": "For an immersive audio experience while gaming or listening to music in this room, which device would you wear over your ears?"
+    },
+    {
+        "scene_id": "3db0a1c8f3",
+        "object_id": [
+            142
+        ],
+        "object_name": "oven",
+        "description": "When it's time to bake a cake or roast some vegetables, which kitchen appliance would you use to heat them?"
+    },
+    {
+        "scene_id": "3db0a1c8f3",
+        "object_id": [
+            147,
+            162
+        ],
+        "object_name": "sink",
+        "description": "After eating, where would you go to wash the dishes in this room?"
+    },
+    {
+        "scene_id": "3db0a1c8f3",
+        "object_id": [
+            146
+        ],
+        "object_name": "bowl",
+        "description": "If you're about to mix ingredients for a recipe, which small, round kitchen item would you reach for?"
+    },
+    {
+        "scene_id": "3db0a1c8f3",
+        "object_id": [
+            153
+        ],
+        "object_name": "pan",
+        "description": "To cook a stir-fry or an omelet, which kitchen utensil would you place on the stove?"
+    },
+    {
+        "scene_id": "3db0a1c8f3",
+        "object_id": [
+            148,
+            165
+        ],
+        "object_name": "tap",
+        "description": "To get water for a recipe or to clean your hands in this room, which fixture would you turn?"
+    },
+    {
+        "scene_id": "3db0a1c8f3",
+        "object_id": [
+            183
+        ],
+        "object_name": "washing machine",
+        "description": "When you need to launder your clothes in this home, which appliance would you use?"
+    },
+    {
+        "scene_id": "3db0a1c8f3",
+        "object_id": [
+            82,
+            132,
+            193
+        ],
+        "object_name": "drying rack",
+        "description": "After washing your clothes, on which item in the room would you hang them to dry?"
+    },
+    {
+        "scene_id": "fb5a96b1a2",
+        "object_id": [
+            65
+        ],
+        "object_name": "sofa",
+        "description": "When you want to relax and read a book or simply recline in comfort, which piece of furniture would you choose to sit or lie down on?"
+    },
+    {
+        "scene_id": "fb5a96b1a2",
+        "object_id": [
+            87,
+            41
+        ],
+        "object_name": "speaker",
+        "description": "If you're looking to enhance the sound quality of a presentation or play music in the room, which audio device would you use?"
+    },
+    {
+        "scene_id": "fb5a96b1a2",
+        "object_id": [
+            86,
+            85
+        ],
+        "object_name": "outlet",
+        "description": "For connecting and powering your electronic devices, which wall insert is essential?"
+    },
+    {
+        "scene_id": "fb5a96b1a2",
+        "object_id": [
+            10
+        ],
+        "object_name": "blackboard",
+        "description": "When ideas need to be shared or a lesson taught in an educational setting, which large, flat surface serves as the writing board?"
+    },
+    {
+        "scene_id": "fb5a96b1a2",
+        "object_id": [
+            29
+        ],
+        "object_name": "magazine rack",
+        "description": "Where would you find an assortment of publications conveniently displayed for leisurely reading in the room?"
+    },
+    {
+        "scene_id": "fb5a96b1a2",
+        "object_id": [
+            31,
+            30
+        ],
+        "object_name": "toy",
+        "description": "If a child is searching for entertainment within the room, which playful item might they pick up?"
+    },
+    {
+        "scene_id": "fb5a96b1a2",
+        "object_id": [
+            27
+        ],
+        "object_name": "bottle spray",
+        "description": "When you need to mist plants or clean a surface, which handheld item would you reach for that dispenses liquid in a fine spray?"
+    },
+    {
+        "scene_id": "fb5a96b1a2",
+        "object_id": [
+            14,
+            13,
+            1
+        ],
+        "object_name": "smoke detector",
+        "description": "To ensure safety and to alert in case of smoke or fire, which safety device would be installed on the ceiling?"
+    },
+    {
+        "scene_id": "fb5a96b1a2",
+        "object_id": [
+            70
+        ],
+        "object_name": "bookshelf",
+        "description": "Looking for a place to store or select a book, which furniture item would you approach with multiple shelves?"
+    },
+    {
+        "scene_id": "5eb31827b7",
+        "object_id": [
+            27
+        ],
+        "object_name": "windowframe",
+        "description": "If you want to gaze outside or let fresh air into the room, which part of the wall would you open?"
+    },
+    {
+        "scene_id": "5eb31827b7",
+        "object_id": [
+            54,
+            55
+        ],
+        "object_name": "rolling chair",
+        "description": "When you need to sit down and roll over to reach different parts of the desk, which piece of furniture would you use?"
+    },
+    {
+        "scene_id": "5eb31827b7",
+        "object_id": [
+            51
+        ],
+        "object_name": "footstool",
+        "description": "If you're looking for a short rest for your feet while working at the desk, which small item would you prop them on?"
+    },
+    {
+        "scene_id": "5eb31827b7",
+        "object_id": [
+            50
+        ],
+        "object_name": "bookshelf",
+        "description": "Where in the room would you look for a book or a place to organize your reading materials?"
+    },
+    {
+        "scene_id": "5eb31827b7",
+        "object_id": [
+            83
+        ],
+        "object_name": "computer tower",
+        "description": "For heavy computing tasks, which part of the computer setup, usually placed on the floor or under the desk, would you rely on?"
+    },
+    {
+        "scene_id": "5eb31827b7",
+        "object_id": [
+            79
+        ],
+        "object_name": "doorframe",
+        "description": "When walking through an entryway, which part of the structure outlines the space you pass through?"
+    },
+    {
+        "scene_id": "5eb31827b7",
+        "object_id": [
+            43
+        ],
+        "object_name": "windowsill",
+        "description": "If you're placing plants or decorative items in front of the pane of glass in the room, which flat surface would you use?"
+    },
+    {
+        "scene_id": "f2dc06b1d2",
+        "object_id": [
+            40
+        ],
+        "object_name": "air duct",
+        "description": "To ensure proper ventilation throughout the office, which conduit would be responsible for circulating air?"
+    },
+    {
+        "scene_id": "f2dc06b1d2",
+        "object_id": [
+            37
+        ],
+        "object_name": "light switch",
+        "description": "When the room's too dim to see your work, which small, but essential, device on the wall would you use to brighten the space?"
+    },
+    {
+        "scene_id": "f2dc06b1d2",
+        "object_id": [
+            38
+        ],
+        "object_name": "shelf",
+        "description": "For storing office supplies or books at a reachable height, which horizontal surface would you utilize?"
+    },
+    {
+        "scene_id": "f2dc06b1d2",
+        "object_id": [
+            14,
+            13
+        ],
+        "object_name": "paper ram",
+        "description": "If you have stacks of documents that need compressing for disposal or recycling, which heavy-duty office tool would you use?"
+    },
+    {
+        "scene_id": "f2dc06b1d2",
+        "object_id": [
+            15,
+            16,
+            17,
+            18
+        ],
+        "object_name": "paper stapler",
+        "description": "When papers need to be fastened together for a report or handout, which small desktop device would come in handy?"
+    },
+    {
+        "scene_id": "f2dc06b1d2",
+        "object_id": [
+            34,
+            35
+        ],
+        "object_name": "exhaust fan",
+        "description": "In an office with no windows or to help reduce odors and fumes, which device would you find on the ceiling or wall to clear the air?"
+    },
+    {
+        "scene_id": "5f99900f09",
+        "object_id": [
+            65
+        ],
+        "object_name": "suitcase",
+        "description": "When preparing for a trip or needing to secure belongings, which portable case would you pack your items in?"
+    },
+    {
+        "scene_id": "5f99900f09",
+        "object_id": [
+            76
+        ],
+        "object_name": "dish drainer",
+        "description": "After washing dishes, where would you place them to allow the water to drip off and the items to dry?"
+    },
+    {
+        "scene_id": "5f99900f09",
+        "object_id": [
+            53,
+            49,
+            48,
+            45,
+            44,
+            37,
+            36,
+            34
+        ],
+        "object_name": "arm chair",
+        "description": "For a cozy spot to read or relax in the room, which plush seat would you choose to sink into?"
+    },
+    {
+        "scene_id": "5f99900f09",
+        "object_id": [
+            100
+        ],
+        "object_name": "kitchen counter",
+        "description": "If you're about to chop ingredients or serve a meal, which flat surface in the cooking area would you utilize?"
+    },
+    {
+        "scene_id": "5f99900f09",
+        "object_id": [
+            95
+        ],
+        "object_name": "plant pot",
+        "description": "To add a touch of greenery to the room or care for a bit of nature indoors, in which container would you find a houseplant?"
+    },
+    {
+        "scene_id": "5f99900f09",
+        "object_id": [
+            38
+        ],
+        "object_name": "bag",
+        "description": "When coming in from outside, where might you drop off a tote or personal items for temporary storage?"
+    },
+    {
+        "scene_id": "5f99900f09",
+        "object_id": [
+            78,
+            77
+        ],
+        "object_name": "plate",
+        "description": "Ready to set the table or grab a snack, which piece of crockery would you reach for to hold your food?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            9
+        ],
+        "object_name": "shower tap",
+        "description": "When turning on the water for a warm bath, which fixture would you adjust to start the flow?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            11
+        ],
+        "object_name": "shower ceiling",
+        "description": "To avoid water damage and maintain the bathroom's integrity, which part of the shower should be kept well-maintained and moisture-resistant?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            22
+        ],
+        "object_name": "shower head",
+        "description": "To ensure a soothing shower experience, which device would you expect to evenly distribute water from above?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            17
+        ],
+        "object_name": "shower",
+        "description": "What is the object taht is used for dispensing water during bathing"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            23,
+            24,
+            88
+        ],
+        "object_name": "shower wall",
+        "description": "For privacy and splash protection within the bathroom, which part of the shower enclosure plays a crucial role?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            26,
+            28,
+            29,
+            30,
+            61,
+            62,
+            63
+        ],
+        "object_name": "soap bottle",
+        "description": "When lathering up during a shower, from which container would you dispense your liquid soap?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            27
+        ],
+        "object_name": "bar soap",
+        "description": "If you prefer a solid cleansing product, which item would you reach for that's typically placed on a dish in the shower area?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            31
+        ],
+        "object_name": "shower floor",
+        "description": "To prevent slipping while showering, what part of the bathroom is specifically designed to be slip-resistant?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            39,
+            50
+        ],
+        "object_name": "mirror",
+        "description": "Before leaving for work, which reflective surface in your home should you check to ensure your appearance is neat and presentable?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            44
+        ],
+        "object_name": "shower rug",
+        "description": "Stepping out from the shower, which item would you place your feet on for comfort and to absorb moisture?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            47
+        ],
+        "object_name": "washbasin",
+        "description": "To wash your hands or face, which basin would you use that's fixed within the bathroom?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            48,
+            60
+        ],
+        "object_name": "water tap",
+        "description": "To control the flow of water in the basin, which mechanism would you manipulate?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            59
+        ],
+        "object_name": "bathtub",
+        "description": "For a deep soak or a relaxing bath, which large bathroom fixture would you fill with water?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            65,
+            66
+        ],
+        "object_name": "toothpaste",
+        "description": "For dental hygiene, which tube would you squeeze to apply its contents onto your brush?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            79,
+            80
+        ],
+        "object_name": "ventilation",
+        "description": "To ensure proper air quality and moisture control in the bathroom, which system is essential?"
+    },
+    {
+        "scene_id": "e7af285f7d",
+        "object_id": [
+            117
+        ],
+        "object_name": "bath mat",
+        "description": "Where would you step out onto post-bath to ensure you don't drip water on the floor?"
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            52
+        ],
+        "object_name": "laptop",
+        "description": "What device is necessary for browsing the internet, completing work tasks, or playing games and can be portable?"
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            38,
+            39
+        ],
+        "object_name": "backpack",
+        "description": "The item used for carrying books, laptop, and other personal belongings, often used by students or commuters."
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            37
+        ],
+        "object_name": "nightstand",
+        "description": "The piece of furniture typically placed beside the bed for holding a lamp, alarm clock, or personal items."
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            16,
+            17
+        ],
+        "object_name": "mug",
+        "description": "If you're looking to enjoy a hot drink while you relax in this room, which object would you use?"
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            22
+        ],
+        "object_name": "scissors",
+        "description": "If you need to cut out some coupons from a magazine, which tool in this room would you look for?"
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            24
+        ],
+        "object_name": "cutting board",
+        "description": "If you're about to chop some vegetables for a snack, which surface in the room would you utilize?"
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            9,
+            30
+        ],
+        "object_name": "jacket",
+        "description": "When it's time to step outside into the cold, which item in this room would you put on to stay warm?"
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            31
+        ],
+        "object_name": "bluetooth speaker",
+        "description": "If you want to play music while you tidy up the room, which device would you turn on?"
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            32
+        ],
+        "object_name": "monitor",
+        "description": "If you're working from home and need an additional screen for your setup, which item would you use to extend your display?"
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            33
+        ],
+        "object_name": "desk lamp",
+        "description": "If the room gets dim while you're reading at the desk, which object would you switch on to light up your space?"
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            36
+        ],
+        "object_name": "sweater",
+        "description": "If you feel a chill while working at your desk, which item in the room would you wear for extra warmth?"
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            60,
+            61
+        ],
+        "object_name": "sculpture",
+        "description": "If you're looking to appreciate some art while taking a break from work, which object in the room could you gaze upon?"
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            21,
+            62
+        ],
+        "object_name": "bottle",
+        "description": "When you're thirsty during a study session, which item in this room would you reach for to take a sip of water?"
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            74
+        ],
+        "object_name": "kettle",
+        "description": "If you want to make a hot cup of tea while brainstorming, which appliance in the room would help you boil the water?"
+    },
+    {
+        "scene_id": "0d2ee665be",
+        "object_id": [
+            80
+        ],
+        "object_name": "toaster",
+        "description": "When it's time for a quick snack, which appliance on the countertop could you use to toast your bread?"
+    },
+    {
+        "scene_id": "5ee7c22ba0",
+        "object_id": [
+            23,
+            18
+        ],
+        "object_name": "calendar",
+        "description": "To keep track of upcoming appointments or mark important dates, which item hanging on the wall would you refer to?"
+    },
+    {
+        "scene_id": "5ee7c22ba0",
+        "object_id": [
+            5
+        ],
+        "object_name": "electric box",
+        "description": "For safety and functionality in electrical maintenance, which secured box would an electrician open to check the circuits?"
+    },
+    {
+        "scene_id": "5ee7c22ba0",
+        "object_id": [
+            20
+        ],
+        "object_name": "light switch",
+        "description": "When evening comes and the room grows dim, which device would you flick to illuminate the space?"
+    },
+    {
+        "scene_id": "5ee7c22ba0",
+        "object_id": [
+            36
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "5ee7c22ba0",
+        "object_id": [
+            34
+        ],
+        "object_name": "copy machine",
+        "description": "If you need to create physical copies of documents for a meeting, which office machine would you use that reproduces papers with the press of a button?"
+    },
+    {
+        "scene_id": "f3685d06a9",
+        "object_id": [
+            25,
+            39
+        ],
+        "object_name": "air vent",
+        "description": "To maintain proper airflow and prevent moisture build-up in the bathroom, which feature on the ceiling or wall should be clear and unobstructed?"
+    },
+    {
+        "scene_id": "f3685d06a9",
+        "object_id": [
+            42
+        ],
+        "object_name": "paper towel dispenser",
+        "description": "After washing your hands, which device would you use to get a paper towel to dry them?"
+    },
+    {
+        "scene_id": "f3685d06a9",
+        "object_id": [
+            6
+        ],
+        "object_name": "door vent",
+        "description": "To allow air circulation at a lower level in the bathroom, especially beneath the door, which vented fixture should be free of blockages?"
+    },
+    {
+        "scene_id": "f3685d06a9",
+        "object_id": [
+            13,
+            10,
+            12
+        ],
+        "object_name": "paper towel",
+        "description": "When you need to dry your hands or clean up a small spill, which absorbent material would you pull from a dispenser?"
+    },
+    {
+        "scene_id": "f3685d06a9",
+        "object_id": [
+            1
+        ],
+        "object_name": "soap dispenser",
+        "description": "For hygienic handwashing before exiting the bathroom, which wall-mounted container would you press to get liquid soap?"
+    },
+    {
+        "scene_id": "f3685d06a9",
+        "object_id": [
+            20,
+            23
+        ],
+        "object_name": "toilet brush",
+        "description": "In maintaining a clean and sanitary toilet, which tool is specifically designed for scrubbing inside the bowl?"
+    },
+    {
+        "scene_id": "f3685d06a9",
+        "object_id": [
+            21,
+            24
+        ],
+        "object_name": "flush button",
+        "description": "Once you've finished using the toilet, which mechanism would you press to activate the water flush?"
+    },
+    {
+        "scene_id": "a980334473",
+        "object_id": [
+            7
+        ],
+        "object_name": "chair",
+        "description": "Where should I sit in the room and study?"
+    },
+    {
+        "scene_id": "a980334473",
+        "object_id": [
+            8
+        ],
+        "object_name": "table",
+        "description": "the object used to put things like books."
+    },
+    {
+        "scene_id": "a980334473",
+        "object_id": [
+            9
+        ],
+        "object_name": "door",
+        "ann_id": "1",
+        "description": "What do I need to open to enter the room?"
+    },
+    {
+        "scene_id": "a980334473",
+        "object_id": [
+            10
+        ],
+        "object_name": "photocopy machine",
+        "description": "what equipment is frequently used to make duplicate copies of documents for meetings or records?"
+    },
+    {
+        "scene_id": "a980334473",
+        "object_id": [
+            19
+        ],
+        "object_name": "air conditioner",
+        "description": "A machine that can cool a room."
+    },
+    {
+        "scene_id": "a980334473",
+        "object_id": [
+            21
+        ],
+        "object_name": "smoke detector",
+        "description": "Something that can detect the smoke to protect the user safety."
+    },
+    {
+        "scene_id": "a980334473",
+        "object_id": [
+            20
+        ],
+        "object_name": "ceiling lamp",
+        "description": "The room will be dark at night. What needs to be turned on?"
+    },
+    {
+        "scene_id": "a980334473",
+        "object_id": [
+            28
+        ],
+        "object_name": "printer",
+        "ann_id": 0,
+        "description": "In a home office, which machine is essential for printing out boarding passes or event tickets."
+    },
+    {
+        "scene_id": "a980334473",
+        "object_id": [
+            28
+        ],
+        "object_name": "printer",
+        "ann_id": 1,
+        "description": "Which device is often connected to computers in schools to provide students and teachers with hard copies of their work?"
+    },
+    {
+        "scene_id": "a980334473",
+        "object_id": [
+            28
+        ],
+        "object_name": "printer",
+        "ann_id": 2,
+        "description": "What office equipment might you use to print photos or creative projects at home?"
+    },
+    {
+        "scene_id": "a980334473",
+        "object_id": [
+            28
+        ],
+        "object_name": "printer",
+        "ann_id": 3,
+        "description": "When you need to create physical copies of an electronic report for distribution, which equipment would you use?"
+    },
+    {
+        "scene_id": "a980334473",
+        "object_id": [
+            28
+        ],
+        "object_name": "printer",
+        "ann_id": 4,
+        "description": "What device in the office converts digital documents into paper form, allowing you to hand out meeting agendas?"
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            67
+        ],
+        "object_name": "power brick",
+        "description": "If your laptop is low on battery and you need to charge it to continue working, which object would you search for in the room?"
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            23
+        ],
+        "object_name": "doorframe",
+        "description": "When entering or exiting this room, which structure provides support and defines the transition space?"
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            38
+        ],
+        "object_name": "portable speaker",
+        "description": "For enhancing the sound quality of your music while organizing files, which device would you turn on?"
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            36,
+            30
+        ],
+        "object_name": "multiplug",
+        "description": "In case you need to connect several devices at once and only one outlet is available, which accessory would you utilize?"
+    },
+    {
+        "scene_id": "cc5237fd77",
+        "object_id": [
+            25,
+            26
+        ],
+        "object_name": "window",
+        "description": "If you want to let in natural light and fresh air or gaze at the stars at night, which part of the room would you open?"
+    },
+    {
+        "scene_id": "1ada7a0617",
+        "object_id": [
+            47,
+            46
+        ],
+        "object_name": "whiteboard",
+        "description": "When a team needs to brainstorm ideas or present them in a meeting room, which large, flat surface would they use to write and display these ideas?"
+    },
+    {
+        "scene_id": "1ada7a0617",
+        "object_id": [
+            55
+        ],
+        "object_name": "standing fan",
+        "description": "If the room becomes uncomfortably warm, which object would you turn on to cool down the air?"
+    },
+    {
+        "scene_id": "1ada7a0617",
+        "object_id": [
+            32
+        ],
+        "object_name": "microphone",
+        "description": "If someone is recording a podcast or needs to amplify their voice during a presentation in this room, which device would they speak into?"
+    },
+    {
+        "scene_id": "1ada7a0617",
+        "object_id": [
+            4,
+            3,
+            2,
+            33
+        ],
+        "object_name": "mouse",
+        "description": "If you're navigating on a computer in this room, which small, handheld device do you move across a pad to move the cursor on the screen?"
+    },
+    {
+        "scene_id": "1ada7a0617",
+        "object_id": [
+            56,
+            54,
+            7
+        ],
+        "object_name": "keyboard",
+        "description": "When typing up a report or composing an email on a computer in this room, which input device, composed of keys, would you use?"
+    },
+    {
+        "scene_id": "1ada7a0617",
+        "object_id": [
+            39
+        ],
+        "object_name": "heater",
+        "description": "If the room gets cold, which electric device might you turn on to warm up the space?"
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            64
+        ],
+        "object_name": "coat hanger",
+        "description": "When you enter the room and need to store your jacket or scarf, which item would you hang them on?"
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            45
+        ],
+        "object_name": "coffee machine",
+        "description": "If you're in need of a caffeine boost while working at the desk, which appliance would you use to brew a fresh cup?"
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            42
+        ],
+        "object_name": "blinds",
+        "description": "If the sunlight through the window is too bright while you're trying to work on the computer, which item would you adjust to reduce the glare?"
+    },
+    {
+        "scene_id": "3e8bba0176",
+        "object_id": [
+            38
+        ],
+        "object_name": "plushie",
+        "description": "When looking for a soft and cuddly object to comfort you while you sit on the couch, which item would you choose to snuggle with?"
+    },
+    {
+        "scene_id": "7b6477cb95",
+        "object_id": [
+            59
+        ],
+        "object_name": "pedestal fan",
+        "description": "On a warm day in the office, which standing appliance would you turn on to cool down the room?"
+    },
+    {
+        "scene_id": "7b6477cb95",
+        "object_id": [
+            63
+        ],
+        "object_name": "whiteboard eraser",
+        "description": "After brainstorming ideas on the whiteboard, which small tool would you use to clear your thoughts off the board?"
+    },
+    {
+        "scene_id": "7b6477cb95",
+        "object_id": [
+            23
+        ],
+        "object_name": "power strip",
+        "description": "When you have multiple electronic devices to charge or power at your workstation, which accessory would you use to supply electricity to them all?"
+    },
+    {
+        "scene_id": "7b6477cb95",
+        "object_id": [
+            22,
+            21
+        ],
+        "object_name": "cable",
+        "description": "In a tangle under the desk, which item do you sort out to connect and power your equipment?"
+    },
+    {
+        "scene_id": "7b6477cb95",
+        "object_id": [
+            8
+        ],
+        "object_name": "coat rack",
+        "description": "Where in the office would you hang your coat or scarf upon arrival to keep them tidy and out of the way?"
+    },
+    {
+        "scene_id": "7b6477cb95",
+        "object_id": [
+            5,
+            4
+        ],
+        "object_name": "pipe",
+        "description": "Running along the walls or ceiling, which cylindrical object carries water or heating and cooling fluids throughout the building?"
+    },
+    {
+        "scene_id": "7b6477cb95",
+        "object_id": [
+            30
+        ],
+        "object_name": "hole puncher",
+        "description": "When you have documents that need organizing in a binder, which manual device would you use to make neat holes?"
+    },
+    {
+        "scene_id": "7b6477cb95",
+        "object_id": [
+            19,
+            14,
+            41,
+            27
+        ],
+        "object_name": "office chair",
+        "description": "For a long day of work requiring many hours of sitting, which piece of furniture offers a supportive seat with mobility around your desk?"
+    },
+    {
+        "scene_id": "5942004064",
+        "object_id": [
+            109,
+            110,
+            111,
+            112,
+            113,
+            114
+        ],
+        "object_name": "toilet paper",
+        "description": "Two roll of papers found in bathrooms for wiping after using the toilet."
+    },
+    {
+        "scene_id": "5942004064",
+        "object_id": [
+            17
+        ],
+        "object_name": "faucet",
+        "description": "On the sink, what fixture is used for dispensing water?"
+    },
+    {
+        "scene_id": "5942004064",
+        "object_id": [
+            52
+        ],
+        "object_name": "basket",
+        "description": "What container placed near the sink is used for organizing small items?"
+    },
+    {
+        "scene_id": "5942004064",
+        "object_id": [
+            157
+        ],
+        "object_name": "blanket",
+        "description": "What is the object placed on the bed to keep warm?"
+    },
+    {
+        "scene_id": "5942004064",
+        "object_id": [
+            59,
+            95,
+            97,
+            122,
+            126,
+            129
+        ],
+        "object_name": "plant",
+        "description": "What is the object placed near the window that adds a natural element to the room?"
+    },
+    {
+        "scene_id": "5942004064",
+        "object_id": [
+            49,
+            50
+        ],
+        "object_name": "rug",
+        "description": "something that adds warmth and decoration to a floor"
+    },
+    {
+        "scene_id": "5942004064",
+        "object_id": [
+            19
+        ],
+        "object_name": "sink",
+        "description": "What item placed under the faucet is used to hold water for cleaning?"
+    },
+    {
+        "scene_id": "5942004064",
+        "object_id": [
+            46,
+            47
+        ],
+        "object_name": "towel",
+        "description": "What is the item hanging in the bathroom for drying hands and body?"
+    },
+    {
+        "scene_id": "5942004064",
+        "object_id": [
+            18
+        ],
+        "object_name": "soap bottle",
+        "description": "When lathering up during a shower, from which container would you dispense your liquid soap?"
+    },
+    {
+        "scene_id": "5942004064",
+        "object_id": [
+            77
+        ],
+        "object_name": "picture",
+        "description": "What object is often hung on walls for decoration and to display art or photographs?"
+    },
+    {
+        "scene_id": "5942004064",
+        "object_id": [
+            138,
+            139,
+            140,
+            141
+        ],
+        "object_name": "dumbbell",
+        "description": "What is the object located on the floor for lifting during workouts?"
+    },
+    {
+        "scene_id": "d755b3d9d8",
+        "object_id": [
+            7
+        ],
+        "object_name": "storage cabinet",
+        "description": "For organizing and securing a large number of items or documents, which robust structure would you use?"
+    },
+    {
+        "scene_id": "d755b3d9d8",
+        "object_id": [
+            68,
+            69,
+            70,
+            71,
+            72,
+            73
+        ],
+        "object_name": "window",
+        "description": "Where is the glass opening that allows light and air into the room?"
+    },
+    {
+        "scene_id": "d755b3d9d8",
+        "object_id": [
+            96
+        ],
+        "object_name": "paper towel",
+        "description": "When you need to dry your hands or clean up a small spill, which absorbent material would you pull from a dispenser?"
+    },
+    {
+        "scene_id": "d755b3d9d8",
+        "object_id": [
+            18,
+            19
+        ],
+        "object_name": "air duct",
+        "description": "What structure running along the ceiling is used to channel air for heating or cooling?"
+    },
+    {
+        "scene_id": "d755b3d9d8",
+        "object_id": [
+            65,
+            66,
+            67,
+            78
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "d755b3d9d8",
+        "object_id": [
+            62,
+            63,
+            88
+        ],
+        "object_name": "plant",
+        "description": "Where is the greenery located within the office?"
+    },
+    {
+        "scene_id": "d755b3d9d8",
+        "object_id": [
+            36
+        ],
+        "object_name": "calendar",
+        "description": "To keep track of upcoming appointments or mark important dates, which item hanging on the wall would you refer to?"
+    },
+    {
+        "scene_id": "d755b3d9d8",
+        "object_id": [
+            50,
+            51
+        ],
+        "object_name": "printer",
+        "description": "What item placed next to the computer is used to produce physical copies of digital files?"
+    },
+    {
+        "scene_id": "d755b3d9d8",
+        "object_id": [
+            22,
+            23
+        ],
+        "object_name": "jacket",
+        "description": "When it's time to step outside into the cold, which item in this room would you put on to stay warm?"
+    },
+    {
+        "scene_id": "d755b3d9d8",
+        "object_id": [
+            54
+        ],
+        "object_name": "shoes",
+        "description": "footwear typically consisting of a sole and a upper part"
+    },
+    {
+        "scene_id": "d755b3d9d8",
+        "object_id": [
+            53
+        ],
+        "object_name": "heater",
+        "description": "What object in the room is used to heat up the space during cold weather?"
+    },
+    {
+        "scene_id": "825d228aec",
+        "object_id": [
+            11,
+            1
+        ],
+        "object_name": "exhaust fan",
+        "description": "On the wall, what device is used to ventilate the room and remove stale air?"
+    },
+    {
+        "scene_id": "825d228aec",
+        "object_id": [
+            25,
+            26,
+            27,
+            8,
+            14,
+            18
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "825d228aec",
+        "object_id": [
+            41
+        ],
+        "object_name": "smoke detector",
+        "description": "Something that can detect the smoke to protect the user safety."
+    },
+    {
+        "scene_id": "825d228aec",
+        "object_id": [
+            10
+        ],
+        "object_name": "air conditioner",
+        "description": "A machine that can cool a room."
+    },
+    {
+        "scene_id": "825d228aec",
+        "object_id": [
+            39
+        ],
+        "object_name": "printer",
+        "description": "What item placed next to the computer is used to produce physical copies of digital files?"
+    },
+    {
+        "scene_id": "825d228aec",
+        "object_id": [
+            7
+        ],
+        "object_name": "light switch",
+        "description": "When evening comes and the room grows dim, which device would you flick to illuminate the space?"
+    },
+    {
+        "scene_id": "825d228aec",
+        "object_id": [
+            5
+        ],
+        "object_name": "table",
+        "description": "Where is the flat surface used for various activities such as writing or dining located?"
+    },
+    {
+        "scene_id": "825d228aec",
+        "object_id": [
+            42
+        ],
+        "object_name": "door",
+        "description": "something that separates different areas or rooms, providing access when opened."
+    },
+    {
+        "scene_id": "825d228aec",
+        "object_id": [
+            28,
+            29
+        ],
+        "object_name": "power strip",
+        "description": "When you have multiple electronic devices to charge or power at your workstation, which accessory would you use to supply electricity to them all?"
+    },
+    {
+        "scene_id": "825d228aec",
+        "object_id": [
+            9
+        ],
+        "object_name": "shelf",
+        "description": "What item placed near the desk is used to organize books, documents, and decorations?"
+    },
+    {
+        "scene_id": "825d228aec",
+        "object_id": [
+            3
+        ],
+        "object_name": "paper shredder",
+        "description": "What item placed near the desk is used to destroy sensitive paper information?"
+    },
+    {
+        "scene_id": "bde1e479ad",
+        "object_id": [
+            116,
+            119,
+            128
+        ],
+        "object_name": "window",
+        "description": "On the wall, what opening allows natural light into the room and provides a view outside?"
+    },
+    {
+        "scene_id": "bde1e479ad",
+        "object_id": [
+            93
+        ],
+        "object_name": "sink",
+        "description": "After eating, where would you go to wash the dishes in this room?"
+    },
+    {
+        "scene_id": "bde1e479ad",
+        "object_id": [
+            84
+        ],
+        "object_name": "doorframe",
+        "description": "When walking through an entryway, which part of the structure outlines the space you pass through?"
+    },
+    {
+        "scene_id": "bde1e479ad",
+        "object_id": [
+            9,
+            10,
+            71
+        ],
+        "object_name": "heater",
+        "description": "If the room gets cold, which electric device might you turn on to warm up the space?"
+    },
+    {
+        "scene_id": "bde1e479ad",
+        "object_id": [
+            76,
+            86,
+            87,
+            88
+        ],
+        "object_name": "light switch",
+        "description": "When the room's too dim to see your work, which small, but essential, device on the wall would you use to brighten the space?"
+    },
+    {
+        "scene_id": "bde1e479ad",
+        "object_id": [
+            95
+        ],
+        "object_name": "whiteboard eraser",
+        "description": "What item is used to wipe off writing from a whiteboard?"
+    },
+    {
+        "scene_id": "bde1e479ad",
+        "object_id": [
+            89
+        ],
+        "object_name": "clock",
+        "description": "What object indicates hours and minutes in the room?"
+    },
+    {
+        "scene_id": "bde1e479ad",
+        "object_id": [
+            18,
+            139,
+            140,
+            141
+        ],
+        "object_name": "electrical duct",
+        "description": "On the ceiling, what object is used to house and protect electrical wires?"
+    },
+    {
+        "scene_id": "bde1e479ad",
+        "object_id": [
+            115,
+            129
+        ],
+        "object_name": "door",
+        "description": "Where is the entrance or exit to the room?"
+    },
+    {
+        "scene_id": "bde1e479ad",
+        "object_id": [
+            8,
+            98
+        ],
+        "object_name": "blinds",
+        "description": "If the sunlight through the window is too bright while you're trying to work on the computer, which item would you adjust to reduce the glare?"
+    },
+    {
+        "scene_id": "bde1e479ad",
+        "object_id": [
+            100
+        ],
+        "object_name": "trash bin",
+        "description": "On the floor, what container is used for disposing of waste and garbage?"
+    },
+    {
+        "scene_id": "13c3e046d7",
+        "object_id": [
+            40
+        ],
+        "object_name": "cable tray",
+        "description": "What is the item positioned above the work area for managing cables?"
+    },
+    {
+        "scene_id": "13c3e046d7",
+        "object_id": [
+            7
+        ],
+        "object_name": "heater",
+        "description": "What object in the room is used to heat up the space during cold weather?"
+    },
+    {
+        "scene_id": "13c3e046d7",
+        "object_id": [
+            66
+        ],
+        "object_name": "light switch",
+        "description": "When the room's too dim to see your work, which small, but essential, device on the wall would you use to brighten the space?"
+    },
+    {
+        "scene_id": "13c3e046d7",
+        "object_id": [
+            38
+        ],
+        "object_name": "door",
+        "description": "something that separates different areas or rooms, providing access when opened."
+    },
+    {
+        "scene_id": "25f3b7a318",
+        "object_id": [
+            4,
+            3
+        ],
+        "object_name": "poster",
+        "description": "In the room, what item hung on the wall provides visual information or decoration?"
+    },
+    {
+        "scene_id": "25f3b7a318",
+        "object_id": [
+            45
+        ],
+        "object_name": "blanket",
+        "description": "What is the object placed on the bed for warmth?"
+    },
+    {
+        "scene_id": "25f3b7a318",
+        "object_id": [
+            32
+        ],
+        "object_name": "pedestal fan",
+        "description": "On a warm day in the office, which standing appliance would you turn on to cool down the room?"
+    },
+    {
+        "scene_id": "25f3b7a318",
+        "object_id": [
+            97
+        ],
+        "object_name": "smoke detector",
+        "description": "On the ceiling, what device is used for detecting smoke and alerting in case of fire?"
+    },
+    {
+        "scene_id": "25f3b7a318",
+        "object_id": [
+            34
+        ],
+        "object_name": "mug",
+        "description": "If you're looking to enjoy a hot drink while you relax in this room, which object would you use?"
+    },
+    {
+        "scene_id": "25f3b7a318",
+        "object_id": [
+            13
+        ],
+        "object_name": "sink",
+        "description": "What is the fixture found in the bathroom or kitchen used for water flow and cleaning?"
+    },
+    {
+        "scene_id": "25f3b7a318",
+        "object_id": [
+            55
+        ],
+        "object_name": "broom",
+        "description": "On the floor, what object is used for sweeping and cleaning debris?"
+    },
+    {
+        "scene_id": "25f3b7a318",
+        "object_id": [
+            31
+        ],
+        "object_name": "laundry basket",
+        "description": "What is the object found near the washing machine for holding laundry?"
+    },
+    {
+        "scene_id": "25f3b7a318",
+        "object_id": [
+            22,
+            47
+        ],
+        "object_name": "towel",
+        "description": "Where is the cloth used for drying located?"
+    },
+    {
+        "scene_id": "25f3b7a318",
+        "object_id": [
+            41
+        ],
+        "object_name": "curtain",
+        "description": "What item hanging from the rod is used to cover the windows?"
+    },
+    {
+        "scene_id": "25f3b7a318",
+        "object_id": [
+            72
+        ],
+        "object_name": "heater",
+        "description": "If the room gets cold, which electric device might you turn on to warm up the space?"
+    },
+    {
+        "scene_id": "38d58a7a31",
+        "object_id": [
+            84,
+            85,
+            86,
+            87
+        ],
+        "object_name": "window",
+        "description": "On the wall, what opening allows natural light into the room and provides a view outside?"
+    },
+    {
+        "scene_id": "38d58a7a31",
+        "object_id": [
+            78,
+            93
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "38d58a7a31",
+        "object_id": [
+            73
+        ],
+        "object_name": "sink",
+        "description": "Where is the basin used for washing hands and tools?"
+    },
+    {
+        "scene_id": "38d58a7a31",
+        "object_id": [
+            70
+        ],
+        "object_name": "doorframe",
+        "description": "When walking through an entryway, which part of the structure outlines the space you pass through?"
+    },
+    {
+        "scene_id": "38d58a7a31",
+        "object_id": [
+            48,
+            82,
+            110
+        ],
+        "object_name": "heater",
+        "description": "What object in the room is used to heat up the space during cold weather?"
+    },
+    {
+        "scene_id": "38d58a7a31",
+        "object_id": [
+            74,
+            75,
+            76,
+            77,
+            94
+        ],
+        "object_name": "light switch",
+        "description": "When evening comes and the room grows dim, which device would you flick to illuminate the space?"
+    },
+    {
+        "scene_id": "38d58a7a31",
+        "object_id": [
+            96
+        ],
+        "object_name": "keyboard",
+        "description": "On the desk, what object is used for typing and inputting data into the computer?'"
+    },
+    {
+        "scene_id": "38d58a7a31",
+        "object_id": [
+            51,
+            111,
+            112,
+            113
+        ],
+        "object_name": "electrical duct",
+        "description": "What structure running along the ceiling is used to contain and route electrical wiring?"
+    },
+    {
+        "scene_id": "38d58a7a31",
+        "object_id": [
+            40,
+            69
+        ],
+        "object_name": "door",
+        "description": "What item must be opened to provide a way into a room or building?"
+    },
+    {
+        "scene_id": "38d58a7a31",
+        "object_id": [
+            102,
+            114
+        ],
+        "object_name": "coat hanger",
+        "description": "What item placed by the door is used to organize outerwear?"
+    },
+    {
+        "scene_id": "38d58a7a31",
+        "object_id": [
+            80
+        ],
+        "object_name": "blinds",
+        "description": "On the window, what object is used for controlling the amount of light entering the room?"
+    },
+    {
+        "scene_id": "21d970d8de",
+        "object_id": [
+            21,
+            46
+        ],
+        "object_name": "window",
+        "description": "If you want to let in natural light and fresh air or gaze at the stars at night, which part of the room would you open?"
+    },
+    {
+        "scene_id": "21d970d8de",
+        "object_id": [
+            43,
+            51,
+            52,
+            69,
+            79,
+            136
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "21d970d8de",
+        "object_id": [
+            33
+        ],
+        "object_name": "sink",
+        "description": "What item placed under the faucet is used to hold water for cleaning?"
+    },
+    {
+        "scene_id": "21d970d8de",
+        "object_id": [
+            2,
+            10,
+            77
+        ],
+        "object_name": "heater",
+        "description": "What object in the room is used to heat up the space during cold weather?"
+    },
+    {
+        "scene_id": "21d970d8de",
+        "object_id": [
+            45,
+            78
+        ],
+        "object_name": "light switch",
+        "description": "When evening comes and the room grows dim, which device would you flick to illuminate the space?"
+    },
+    {
+        "scene_id": "21d970d8de",
+        "object_id": [
+            23
+        ],
+        "object_name": "whiteboard eraser",
+        "description": "What item is used to wipe off writing from a whiteboard?"
+    },
+    {
+        "scene_id": "21d970d8de",
+        "object_id": [
+            80
+        ],
+        "object_name": "wall clock",
+        "description": "What item hanging on the wall helps people keep track of time?"
+    },
+    {
+        "scene_id": "21d970d8de",
+        "object_id": [
+            54,
+            82,
+            83,
+            139
+        ],
+        "object_name": "electrical duct",
+        "description": "What structure running along the ceiling is used to contain and route electrical wiring?"
+    },
+    {
+        "scene_id": "21d970d8de",
+        "object_id": [
+            67
+        ],
+        "object_name": "door",
+        "description": "Where is the entrance or exit to the room?"
+    },
+    {
+        "scene_id": "21d970d8de",
+        "object_id": [
+            11,
+            49
+        ],
+        "object_name": "blinds",
+        "description": "Where are the window coverings that can be adjusted to control the amount of light?"
+    },
+    {
+        "scene_id": "21d970d8de",
+        "object_id": [
+            73
+        ],
+        "object_name": "trash bin",
+        "description": "On the floor, what container is used for disposing of waste and garbage?"
+    },
+    {
+        "scene_id": "99fa5c25e1",
+        "object_id": [
+            39,
+            43,
+            44,
+            79
+        ],
+        "object_name": "cardboard box",
+        "description": "If you need to store or transport items, which lightweight material container would you choose for packing?"
+    },
+    {
+        "scene_id": "99fa5c25e1",
+        "object_id": [
+            42
+        ],
+        "object_name": "notebook",
+        "description": "Where is the object used for writing notes and organizing information placed?"
+    },
+    {
+        "scene_id": "99fa5c25e1",
+        "object_id": [
+            3
+        ],
+        "object_name": "office chair",
+        "description": "Where is the seat designed for use at a desk in the office?"
+    },
+    {
+        "scene_id": "99fa5c25e1",
+        "object_id": [
+            37,
+            115
+        ],
+        "object_name": "spray bottle",
+        "description": "What is the object found near the cleaning supplies that is used for spraying water or cleaning solutions?"
+    },
+    {
+        "scene_id": "99fa5c25e1",
+        "object_id": [
+            26,
+            27,
+            46,
+            47
+        ],
+        "object_name": "bucket",
+        "description": "What item placed next to the cleaning supplies is used for carrying liquids?"
+    },
+    {
+        "scene_id": "99fa5c25e1",
+        "object_id": [
+            122,
+            135
+        ],
+        "object_name": "screwdriver",
+        "description": "What item placed in the toolbox is used to tighten or loosen screws?"
+    },
+    {
+        "scene_id": "99fa5c25e1",
+        "object_id": [
+            31,
+            63,
+            65,
+            71
+        ],
+        "object_name": "cloth",
+        "description": "something portable and often made of wood or metal, used for climbing."
+    },
+    {
+        "scene_id": "99fa5c25e1",
+        "object_id": [
+            33,
+            34,
+            35,
+            36
+        ],
+        "object_name": "bottle",
+        "description": "When you're thirsty during a study session, which item in this room would you reach for to take a sip of water?"
+    },
+    {
+        "scene_id": "99fa5c25e1",
+        "object_id": [
+            64
+        ],
+        "object_name": "books",
+        "description": "what objects are used for reading, learning, and research?"
+    },
+    {
+        "scene_id": "99fa5c25e1",
+        "object_id": [
+            2
+        ],
+        "object_name": "stool",
+        "description": "Where is the seat without a back that is used for sitting at the workbench?"
+    },
+    {
+        "scene_id": "a24f64f7fb",
+        "object_id": [
+            47,
+            5,
+            7
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "a24f64f7fb",
+        "object_id": [
+            24
+        ],
+        "object_name": "smoke detector",
+        "description": "Where is the object installed on the ceiling to ensure safety by detecting smoke?"
+    },
+    {
+        "scene_id": "a24f64f7fb",
+        "object_id": [
+            42
+        ],
+        "object_name": "picture",
+        "description": "What is the item hanging above the sofa that adds decoration to the room?"
+    },
+    {
+        "scene_id": "a24f64f7fb",
+        "object_id": [
+            39,
+            40
+        ],
+        "object_name": "curtain",
+        "description": "On the window, what object is used to block light and provide privacy?"
+    },
+    {
+        "scene_id": "a24f64f7fb",
+        "object_id": [
+            2,
+            3,
+            6
+        ],
+        "object_name": "light switch",
+        "description": "When the room's too dim to see your work, which small, but essential, device on the wall would you use to brighten the space?"
+    },
+    {
+        "scene_id": "a24f64f7fb",
+        "object_id": [
+            16
+        ],
+        "object_name": "fan",
+        "description": "Where is the device used for circulating air to cool the room?"
+    },
+    {
+        "scene_id": "a24f64f7fb",
+        "object_id": [
+            18
+        ],
+        "object_name": "keyboard",
+        "description": "What item placed in front of the monitor is used to enter text and commands?"
+    },
+    {
+        "scene_id": "a24f64f7fb",
+        "object_id": [
+            22
+        ],
+        "object_name": "monitor stand",
+        "description": "On the desk, what object is used to elevate the monitor to a comfortable viewing height?"
+    },
+    {
+        "scene_id": "a24f64f7fb",
+        "object_id": [
+            43,
+            44
+        ],
+        "object_name": "table",
+        "description": "What is the object placed in the center of the room for holding items?"
+    },
+    {
+        "scene_id": "a24f64f7fb",
+        "object_id": [
+            36
+        ],
+        "object_name": "office chair",
+        "description": "Where is the seat designed for use at a desk?"
+    },
+    {
+        "scene_id": "a24f64f7fb",
+        "object_id": [
+            26
+        ],
+        "object_name": "door",
+        "description": "something that separates different areas or rooms, providing access when opened."
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            26
+        ],
+        "object_name": "window",
+        "description": "What is the object that allows natural light to enter the room and provides a view outside?"
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            17
+        ],
+        "object_name": "microwave",
+        "description": "What object placed above the counter is used to cook or reheat meals using microwave radiation?"
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            37,
+            60,
+            59
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            25
+        ],
+        "object_name": "windowframe",
+        "description": "If you want to gaze outside or let fresh air into the room, which part of the wall would you open?"
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            14
+        ],
+        "object_name": "sink",
+        "description": "After eating, where would you go to wash the dishes in this room?"
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            15
+        ],
+        "object_name": "doorframe",
+        "description": "When walking through an entryway, which part of the structure outlines the space you pass through?"
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            41
+        ],
+        "object_name": "water filter",
+        "description": "What is the object placed on the desk or table for clean drinking water?"
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            54
+        ],
+        "object_name": "picture",
+        "description": "What object is often hung on walls for decoration and to display art or photographs?"
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            33
+        ],
+        "object_name": "heater",
+        "description": "If the room gets cold, which electric device might you turn on to warm up the space?"
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            69,
+            58
+        ],
+        "object_name": "light switch",
+        "description": "When the room's too dim to see your work, which small, but essential, device on the wall would you use to brighten the space?"
+    },
+    {
+        "scene_id": "40aec5fffa",
+        "object_id": [
+            48
+        ],
+        "object_name": "dishwasher",
+        "description": "To clean a load of dirty dishes efficiently, which large kitchen appliance would you load and run?"
+    },
+    {
+        "scene_id": "7bc286c1b6",
+        "object_id": [
+            43
+        ],
+        "object_name": "faucet",
+        "description": "Where is the device used to control the flow of water into the sink?"
+    },
+    {
+        "scene_id": "7bc286c1b6",
+        "object_id": [
+            41
+        ],
+        "object_name": "shower handle",
+        "description": "Where is the object above the sink that controls the water flow in the shower?"
+    },
+    {
+        "scene_id": "7bc286c1b6",
+        "object_id": [
+            2
+        ],
+        "object_name": "toilet paper",
+        "description": "Two roll of papers found in bathrooms for wiping after using the toilet."
+    },
+    {
+        "scene_id": "7bc286c1b6",
+        "object_id": [
+            1
+        ],
+        "object_name": "ventilator",
+        "description": "Where is the device used to circulate air and reduce humidity in the room?"
+    },
+    {
+        "scene_id": "7bc286c1b6",
+        "object_id": [
+            65
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "7bc286c1b6",
+        "object_id": [
+            44
+        ],
+        "object_name": "sink",
+        "description": "Where is the basin used for washing hands and tools?"
+    },
+    {
+        "scene_id": "7bc286c1b6",
+        "object_id": [
+            28
+        ],
+        "object_name": "toothbrush",
+        "description": "What is the object used to brush teeth?"
+    },
+    {
+        "scene_id": "7bc286c1b6",
+        "object_id": [
+            10
+        ],
+        "object_name": "doorframe",
+        "description": "the structure surrounding a door that provides support"
+    },
+    {
+        "scene_id": "7bc286c1b6",
+        "object_id": [
+            49,
+            46
+        ],
+        "object_name": "towel",
+        "description": "What is the item hanging in the bathroom for drying hands and body?"
+    },
+    {
+        "scene_id": "7bc286c1b6",
+        "object_id": [
+            40,
+            39
+        ],
+        "object_name": "shower gel",
+        "description": "What is the container of gel used for washing the body located near the shower area?"
+    },
+    {
+        "scene_id": "7bc286c1b6",
+        "object_id": [
+            27
+        ],
+        "object_name": "toothbrush holder",
+        "description": "What item holds the toothbrushes upright when not in use?"
+    },
+    {
+        "scene_id": "bcd2436daf",
+        "object_id": [
+            7,
+            16
+        ],
+        "object_name": "window",
+        "description": "In a room, what object allows natural light to enter and provides a view outside?"
+    },
+    {
+        "scene_id": "bcd2436daf",
+        "object_id": [
+            25,
+            27,
+            13,
+            15
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "bcd2436daf",
+        "object_id": [
+            19,
+            8
+        ],
+        "object_name": "blanket",
+        "description": "What is the object placed on the bed to keep warm?"
+    },
+    {
+        "scene_id": "bcd2436daf",
+        "object_id": [
+            36
+        ],
+        "object_name": "plant",
+        "description": "What is the object placed near the window that adds a natural element to the room?"
+    },
+    {
+        "scene_id": "bcd2436daf",
+        "object_id": [
+            10
+        ],
+        "object_name": "smoke detector",
+        "description": "On the ceiling, what device is used for detecting smoke and alerting in case of fire?"
+    },
+    {
+        "scene_id": "bcd2436daf",
+        "object_id": [
+            20
+        ],
+        "object_name": "jacket",
+        "description": "What piece of clothing placed on the back of the chair is used for staying warm?"
+    },
+    {
+        "scene_id": "bcd2436daf",
+        "object_id": [
+            31
+        ],
+        "object_name": "picture",
+        "description": "To add personal charm to the room, which framed item would you look at that captures a moment or a memory?"
+    },
+    {
+        "scene_id": "bcd2436daf",
+        "object_id": [
+            23,
+            24
+        ],
+        "object_name": "shoes",
+        "description": "What items are worn on the feet for walking?"
+    },
+    {
+        "scene_id": "bcd2436daf",
+        "object_id": [
+            26
+        ],
+        "object_name": "heater",
+        "description": "If the room gets cold, which electric device might you turn on to warm up the space?"
+    },
+    {
+        "scene_id": "bcd2436daf",
+        "object_id": [
+            14
+        ],
+        "object_name": "light switch",
+        "description": "When the room's too dim to see your work, which small, but essential, device on the wall would you use to brighten the space?"
+    },
+    {
+        "scene_id": "bcd2436daf",
+        "object_id": [
+            22,
+            33,
+            34
+        ],
+        "object_name": "cabinet",
+        "description": "What item placed near the desk is used to organize files and materials?"
+    },
+    {
+        "scene_id": "6115eddb86",
+        "object_id": [
+            39,
+            38
+        ],
+        "object_name": "toilet paper",
+        "description": "Two roll of papers found in bathrooms for wiping after using the toilet."
+    },
+    {
+        "scene_id": "6115eddb86",
+        "object_id": [
+            77,
+            76,
+            10,
+            37
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "6115eddb86",
+        "object_id": [
+            16
+        ],
+        "object_name": "blanket",
+        "description": "What is the object placed on the bed to keep warm?"
+    },
+    {
+        "scene_id": "6115eddb86",
+        "object_id": [
+            3,
+            28
+        ],
+        "object_name": "smoke detector",
+        "description": "On the ceiling, what device is used for detecting smoke and alerting in case of fire?"
+    },
+    {
+        "scene_id": "6115eddb86",
+        "object_id": [
+            33,
+            32,
+            31,
+            30,
+            29
+        ],
+        "object_name": "ceiling light",
+        "description": "Where is the fixture that provides overhead lighting to ensure the room is well-lit?"
+    },
+    {
+        "scene_id": "6115eddb86",
+        "object_id": [
+            86
+        ],
+        "object_name": "sink",
+        "description": "Where is the basin used for washing hands and tools?"
+    },
+    {
+        "scene_id": "6115eddb86",
+        "object_id": [
+            71
+        ],
+        "object_name": "ventilation",
+        "description": "To ensure proper air quality and moisture control in the bathroom, which system is essential?"
+    },
+    {
+        "scene_id": "6115eddb86",
+        "object_id": [
+            56
+        ],
+        "object_name": "picture",
+        "description": "To add personal charm to the room, which framed item would you look at that captures a moment or a memory?"
+    },
+    {
+        "scene_id": "6115eddb86",
+        "object_id": [
+            13
+        ],
+        "object_name": "towel",
+        "description": "What is the item hanging in the bathroom for drying hands and body?"
+    },
+    {
+        "scene_id": "6115eddb86",
+        "object_id": [
+            88
+        ],
+        "object_name": "curtain",
+        "description": "On the window, what object is used to block light and provide privacy?"
+    },
+    {
+        "scene_id": "6115eddb86",
+        "object_id": [
+            49
+        ],
+        "object_name": "sofa",
+        "description": "What is the object located near the wall for comfortable seating?"
+    },
+    {
+        "scene_id": "b0a08200c9",
+        "object_id": [
+            51,
+            50
+        ],
+        "object_name": "window",
+        "description": "If you want to let in natural light and fresh air or gaze at the stars at night, which part of the room would you open?"
+    },
+    {
+        "scene_id": "b0a08200c9",
+        "object_id": [
+            87,
+            86
+        ],
+        "object_name": "smoke detector",
+        "description": "On the ceiling, what device is used for detecting smoke and alerting in case of fire?"
+    },
+    {
+        "scene_id": "b0a08200c9",
+        "object_id": [
+            38,
+            24
+        ],
+        "object_name": "heater",
+        "description": "What object in the room is used to heat up the space during cold weather?"
+    },
+    {
+        "scene_id": "b0a08200c9",
+        "object_id": [
+            84,
+            83
+        ],
+        "object_name": "keyboard",
+        "description": "What item placed in front of the monitor is used to enter text and commands?"
+    },
+    {
+        "scene_id": "b0a08200c9",
+        "object_id": [
+            37,
+            36,
+            35,
+            1
+        ],
+        "object_name": "pipe",
+        "description": "Running along the walls or ceiling, which cylindrical object carries water or heating and cooling fluids throughout the building?"
+    },
+    {
+        "scene_id": "b0a08200c9",
+        "object_id": [
+            33,
+            32,
+            31,
+            30,
+            29,
+            26
+        ],
+        "object_name": "electrical duct",
+        "description": "What structure running along the ceiling is used to contain and route electrical wiring?"
+    },
+    {
+        "scene_id": "b0a08200c9",
+        "object_id": [
+            59
+        ],
+        "object_name": "door",
+        "description": "something that separates different areas or rooms, providing access when opened."
+    },
+    {
+        "scene_id": "b0a08200c9",
+        "object_id": [
+            62,
+            61
+        ],
+        "object_name": "ceiling lamp",
+        "description": "What is the device that provides overhead illumination in the room?"
+    },
+    {
+        "scene_id": "b0a08200c9",
+        "object_id": [
+            49
+        ],
+        "object_name": "window frame",
+        "description": "Where is the structure that surrounds the window opening?"
+    },
+    {
+        "scene_id": "b0a08200c9",
+        "object_id": [
+            67
+        ],
+        "object_name": "chair",
+        "description": "What is the object used for seating in the room?"
+    },
+    {
+        "scene_id": "b0a08200c9",
+        "object_id": [
+            22
+        ],
+        "object_name": "monitor",
+        "description": "What object placed near the keyboard shows images and information from the computer?"
+    },
+    {
+        "scene_id": "c4c04e6d6c",
+        "object_id": [
+            59
+        ],
+        "object_name": "exhaust fan",
+        "description": "What object placed near the ceiling is used to improve air circulation in the room?"
+    },
+    {
+        "scene_id": "c4c04e6d6c",
+        "object_id": [
+            57
+        ],
+        "object_name": "sink",
+        "description": "Where is the basin used for washing hands and tools?"
+    },
+    {
+        "scene_id": "c4c04e6d6c",
+        "object_id": [
+            71,
+            67,
+            66
+        ],
+        "object_name": "doorframe",
+        "description": "the structure surrounding a door that provides support"
+    },
+    {
+        "scene_id": "c4c04e6d6c",
+        "object_id": [
+            73,
+            69,
+            85
+        ],
+        "object_name": "light switch",
+        "description": "When the room's too dim to see your work, which small, but essential, device on the wall would you use to brighten the space?"
+    },
+    {
+        "scene_id": "c4c04e6d6c",
+        "object_id": [
+            64
+        ],
+        "object_name": "wall clock",
+        "description": "What item placed above the bookshelf is used to tell the time?"
+    },
+    {
+        "scene_id": "c4c04e6d6c",
+        "object_id": [
+            76,
+            77,
+            9,
+            8
+        ],
+        "object_name": "blackboard",
+        "description": "When ideas need to be shared or a lesson taught in an educational setting, which large, flat surface serves as the writing board?"
+    },
+    {
+        "scene_id": "c4c04e6d6c",
+        "object_id": [
+            56,
+            55,
+            54
+        ],
+        "object_name": "door",
+        "description": "Where is the entrance or exit to the room?"
+    },
+    {
+        "scene_id": "c4c04e6d6c",
+        "object_id": [
+            7
+        ],
+        "object_name": "electrical duct",
+        "description": "What structure running along the ceiling is used to contain and route electrical wiring?"
+    },
+    {
+        "scene_id": "c4c04e6d6c",
+        "object_id": [
+            79,
+            78
+        ],
+        "object_name": "trash bin",
+        "description": "On the floor, what container is used for disposing of waste and garbage?"
+    },
+    {
+        "scene_id": "c4c04e6d6c",
+        "object_id": [
+            62,
+            61,
+            60,
+            58,
+            14,
+            11
+        ],
+        "object_name": "ceiling lamp",
+        "description": "an object attached to the ceiling that provides lighting."
+    },
+    {
+        "scene_id": "c4c04e6d6c",
+        "object_id": [
+            4,
+            3
+        ],
+        "object_name": "pillar",
+        "description": "What is the object that stands tall in the center of the room providing structural support?"
+    },
+    {
+        "scene_id": "a8bf42d646",
+        "object_id": [
+            57,
+            147
+        ],
+        "object_name": "cable",
+        "description": "In a tangle under the desk, which item do you sort out to connect and power your equipment?"
+    },
+    {
+        "scene_id": "a8bf42d646",
+        "object_id": [
+            87,
+            125
+        ],
+        "object_name": "cables",
+        "description": "What items running along the walls and ceiling are used to connect electrical devices?"
+    },
+    {
+        "scene_id": "a8bf42d646",
+        "object_id": [
+            40,
+            92,
+            93,
+            113
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "a8bf42d646",
+        "object_id": [
+            16,
+            17,
+            18,
+            148,
+            149
+        ],
+        "object_name": "ceiling light",
+        "description": "Where is the fixture that provides overhead lighting to ensure the room is well-lit?"
+    },
+    {
+        "scene_id": "a8bf42d646",
+        "object_id": [
+            19,
+            20,
+            21
+        ],
+        "object_name": "windowframe",
+        "description": "If you want to gaze outside or let fresh air into the room, which part of the wall would you open?"
+    },
+    {
+        "scene_id": "a8bf42d646",
+        "object_id": [
+            49,
+            102
+        ],
+        "object_name": "doorframe",
+        "description": "something that holds the door in place and is typically part of a wall"
+    },
+    {
+        "scene_id": "a8bf42d646",
+        "object_id": [
+            44,
+            77,
+            89,
+            90,
+            101,
+            106
+        ],
+        "object_name": "picture",
+        "description": "What object is often hung on walls for decoration and to display art or photographs?"
+    },
+    {
+        "scene_id": "a8bf42d646",
+        "object_id": [
+            76
+        ],
+        "object_name": "jacket",
+        "description": "Where is the outerwear used for keeping warm?"
+    },
+    {
+        "scene_id": "a8bf42d646",
+        "object_id": [
+            42
+        ],
+        "object_name": "heater",
+        "description": "If the room gets cold, which electric device might you turn on to warm up the space?"
+    },
+    {
+        "scene_id": "a8bf42d646",
+        "object_id": [
+            46,
+            47,
+            48,
+            51
+        ],
+        "object_name": "light switch",
+        "description": "When the room's too dim to see your work, which small, but essential, device on the wall would you use to brighten the space?"
+    },
+    {
+        "scene_id": "a8bf42d646",
+        "object_id": [
+            10,
+            11
+        ],
+        "object_name": "cabinet",
+        "description": "On the wall, what object is used for storing electrical components and equipment?"
+    },
+    {
+        "scene_id": "acd95847c5",
+        "object_id": [
+            24
+        ],
+        "object_name": "storage cabinet",
+        "description": "For organizing and securing a large number of items or documents, which robust structure would you use?"
+    },
+    {
+        "scene_id": "acd95847c5",
+        "object_id": [
+            40
+        ],
+        "object_name": "cables",
+        "description": "In the room, what objects are used for transmitting electrical power and signals?"
+    },
+    {
+        "scene_id": "acd95847c5",
+        "object_id": [
+            106,
+            112
+        ],
+        "object_name": "window",
+        "description": "Where is the glass opening that allows light and air into the room?"
+    },
+    {
+        "scene_id": "acd95847c5",
+        "object_id": [
+            28,
+            83,
+            84
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "acd95847c5",
+        "object_id": [
+            17
+        ],
+        "object_name": "smoke detector",
+        "description": "What item mounted on the ceiling is used to ensure fire safety?"
+    },
+    {
+        "scene_id": "acd95847c5",
+        "object_id": [
+            58,
+            76
+        ],
+        "object_name": "mug",
+        "description": "If you're looking to enjoy a hot drink while you relax in this room, which object would you use?"
+    },
+    {
+        "scene_id": "acd95847c5",
+        "object_id": [
+            101,
+            103
+        ],
+        "object_name": "heater",
+        "description": "If the room gets cold, which electric device might you turn on to warm up the space?"
+    },
+    {
+        "scene_id": "acd95847c5",
+        "object_id": [
+            26,
+            27
+        ],
+        "object_name": "light switch",
+        "description": "When evening comes and the room grows dim, which device would you flick to illuminate the space?"
+    },
+    {
+        "scene_id": "acd95847c5",
+        "object_id": [
+            43
+        ],
+        "object_name": "whiteboard eraser",
+        "description": "What item is used to wipe off writing from a whiteboard?"
+    },
+    {
+        "scene_id": "acd95847c5",
+        "object_id": [
+            8,
+            50
+        ],
+        "object_name": "cabinet",
+        "description": "What item placed against the wall is used to house electrical control panels?"
+    },
+    {
+        "scene_id": "acd95847c5",
+        "object_id": [
+            53,
+            60
+        ],
+        "object_name": "keyboard",
+        "description": "When typing up a report or composing an email on a computer in this room, which input device, composed of keys, would you use?"
+    },
+    {
+        "scene_id": "578511c8a9",
+        "object_id": [
+            6
+        ],
+        "object_name": "exhaust fan",
+        "description": "In an office with no windows or to help reduce odors and fumes, which device would you find on the ceiling or wall to clear the air?"
+    },
+    {
+        "scene_id": "578511c8a9",
+        "object_id": [
+            2,
+            126
+        ],
+        "object_name": "pedestal fan",
+        "description": "On a warm day in the office, which standing appliance would you turn on to cool down the room?"
+    },
+    {
+        "scene_id": "578511c8a9",
+        "object_id": [
+            135
+        ],
+        "object_name": "mug",
+        "description": "Where is the container used for drinking hot beverages placed?"
+    },
+    {
+        "scene_id": "578511c8a9",
+        "object_id": [
+            134
+        ],
+        "object_name": "printer",
+        "description": "What item placed near the computer is used to produce physical copies of digital files?"
+    },
+    {
+        "scene_id": "578511c8a9",
+        "object_id": [
+            26
+        ],
+        "object_name": "light switch",
+        "description": "When the room's too dim to see your work, which small, but essential, device on the wall would you use to brighten the space?"
+    },
+    {
+        "scene_id": "578511c8a9",
+        "object_id": [
+            28
+        ],
+        "object_name": "fire extinguisher",
+        "description": "Near the door, what object is used for putting out fires in an emergency?"
+    },
+    {
+        "scene_id": "578511c8a9",
+        "object_id": [
+            81
+        ],
+        "object_name": "door",
+        "description": "something that provides entry or exit to a room."
+    },
+    {
+        "scene_id": "578511c8a9",
+        "object_id": [
+            3,
+            4,
+            5,
+            37,
+            182,
+            183
+        ],
+        "object_name": "trash bin",
+        "description": "What item placed near the desk is used to collect paper waste and other trash?"
+    },
+    {
+        "scene_id": "578511c8a9",
+        "object_id": [
+            184
+        ],
+        "object_name": "oscilloscope",
+        "description": "To observe the details of an electrical signal during a circuit test, which piece of equipment will display the necessary waveforms?"
+    },
+    {
+        "scene_id": "578511c8a9",
+        "object_id": [
+            89
+        ],
+        "object_name": "chair",
+        "description": "What is the object used for seating in the room?"
+    },
+    {
+        "scene_id": "578511c8a9",
+        "object_id": [
+            12
+        ],
+        "object_name": "pillar",
+        "description": "In the room, what vertical structure supports the ceiling and is located near the entrance?"
+    },
+    {
+        "scene_id": "ac48a9b736",
+        "object_id": [
+            78
+        ],
+        "object_name": "storage cabinet",
+        "description": "Where is the piece of furniture used for storing office supplies?"
+    },
+    {
+        "scene_id": "ac48a9b736",
+        "object_id": [
+            80
+        ],
+        "object_name": "pedestal fan",
+        "description": "On a warm day in the office, which standing appliance would you turn on to cool down the room?"
+    },
+    {
+        "scene_id": "ac48a9b736",
+        "object_id": [
+            63
+        ],
+        "object_name": "ladder",
+        "description": "something portable and often made of wood or metal, used for climbing."
+    },
+    {
+        "scene_id": "ac48a9b736",
+        "object_id": [
+            14,
+            23,
+            11,
+            1
+        ],
+        "object_name": "heater",
+        "description": "What object in the room is used to heat up the space during cold weather?"
+    },
+    {
+        "scene_id": "ac48a9b736",
+        "object_id": [
+            85,
+            34
+        ],
+        "object_name": "cabinet",
+        "description": "What item placed near the desk is used to organize files and materials?"
+    },
+    {
+        "scene_id": "ac48a9b736",
+        "object_id": [
+            88,
+            87,
+            86,
+            22,
+            18,
+            31
+        ],
+        "object_name": "keyboard",
+        "description": "Where is the device used for typing on a computer?"
+    },
+    {
+        "scene_id": "ac48a9b736",
+        "object_id": [
+            64
+        ],
+        "object_name": "fire extinguisher",
+        "description": "What item placed on the wall is used to extinguish small fires?"
+    },
+    {
+        "scene_id": "ac48a9b736",
+        "object_id": [
+            50,
+            16,
+            10
+        ],
+        "object_name": "door",
+        "description": "Where is the entrance or exit to the room?"
+    },
+    {
+        "scene_id": "ac48a9b736",
+        "object_id": [
+            51,
+            84,
+            42,
+            39
+        ],
+        "object_name": "window frame",
+        "description": "In the wall, what part of the window provides support and stability?"
+    },
+    {
+        "scene_id": "ac48a9b736",
+        "object_id": [
+            68,
+            37
+        ],
+        "object_name": "chair",
+        "description": "Where should I sit in the room and study?"
+    },
+    {
+        "scene_id": "ac48a9b736",
+        "object_id": [
+            70,
+            69,
+            35
+        ],
+        "object_name": "pillar",
+        "description": "In the room, what vertical structure supports the ceiling and is located near the entrance?"
+    },
+    {
+        "scene_id": "09c1414f1b",
+        "object_id": [
+            212
+        ],
+        "object_name": "bananas",
+        "description": "Where can you find the fruit that is often peeled before eating and is popular for its sweet taste and convenience?"
+    },
+    {
+        "scene_id": "09c1414f1b",
+        "object_id": [
+            154,
+            203
+        ],
+        "object_name": "bag",
+        "description": "What item placed on the corner of the room is used for holding books and stationery?"
+    },
+    {
+        "scene_id": "09c1414f1b",
+        "object_id": [
+            295
+        ],
+        "object_name": "blinds",
+        "description": "Where are the window coverings that can be adjusted to control light?"
+    },
+    {
+        "scene_id": "09c1414f1b",
+        "object_id": [
+            57,
+            58
+        ],
+        "object_name": "bookshelf",
+        "description": "Against the wall, what furniture piece is used to store and display books?"
+    },
+    {
+        "scene_id": "09c1414f1b",
+        "object_id": [
+            111
+        ],
+        "object_name": "hat",
+        "description": "What is the object used for covering the head located near the entrance?"
+    },
+    {
+        "scene_id": "09c1414f1b",
+        "object_id": [
+            277
+        ],
+        "object_name": "kettle",
+        "description": "On the counter, what appliance is used for boiling water?"
+    },
+    {
+        "scene_id": "09c1414f1b",
+        "object_id": [
+            101,
+            149
+        ],
+        "object_name": "backpack",
+        "description": "What item placed on the floor is used to transport belongings when going to school or work?"
+    },
+    {
+        "scene_id": "09c1414f1b",
+        "object_id": [
+            132
+        ],
+        "object_name": "stick",
+        "description": "Where is the long, thin object used for support or measurement found?"
+    },
+    {
+        "scene_id": "09c1414f1b",
+        "object_id": [
+            54,
+            55,
+            56,
+            296,
+            297
+        ],
+        "object_name": "window",
+        "description": "What object near the desk can be opened to let fresh air into the room?"
+    },
+    {
+        "scene_id": "09c1414f1b",
+        "object_id": [
+            92,
+            93,
+            94
+        ],
+        "object_name": "blanket",
+        "description": "Where is the item used to keep warm while sleeping?"
+    },
+    {
+        "scene_id": "09c1414f1b",
+        "object_id": [
+            113,
+            131,
+            140,
+            192,
+            290
+        ],
+        "object_name": "plant",
+        "description": "Where is the greenery located within the office?"
+    },
+    {
+        "scene_id": "7831862f02",
+        "object_id": [
+            20
+        ],
+        "object_name": "smoke detector",
+        "description": "What is the device used for detecting smoke and alerting in case of a fire?"
+    },
+    {
+        "scene_id": "7831862f02",
+        "object_id": [
+            51
+        ],
+        "object_name": "sofa",
+        "description": "What is the object located near the wall for comfortable seating?"
+    },
+    {
+        "scene_id": "7831862f02",
+        "object_id": [
+            52,
+            1,
+            17,
+            18
+        ],
+        "object_name": "light switch",
+        "description": "When the room's too dim to see your work, which small, but essential, device on the wall would you use to brighten the space?"
+    },
+    {
+        "scene_id": "7831862f02",
+        "object_id": [
+            43,
+            44,
+            45
+        ],
+        "object_name": "cabinet",
+        "description": "What item placed near the desk is used to organize files and materials?"
+    },
+    {
+        "scene_id": "7831862f02",
+        "object_id": [
+            42
+        ],
+        "object_name": "office chair",
+        "description": "What is the object placed near the desk for comfortable sitting while working?"
+    },
+    {
+        "scene_id": "7831862f02",
+        "object_id": [
+            2
+        ],
+        "object_name": "fire extinguisher",
+        "description": "What item placed on the wall is used to extinguish small fires?"
+    },
+    {
+        "scene_id": "7831862f02",
+        "object_id": [
+            33,
+            34,
+            12,
+            13
+        ],
+        "object_name": "door",
+        "description": "What object is used to open and close the room?"
+    },
+    {
+        "scene_id": "7831862f02",
+        "object_id": [
+            23,
+            24,
+            25
+        ],
+        "object_name": "ceiling lamp",
+        "description": "Where is the light fixture installed on the ceiling?"
+    },
+    {
+        "scene_id": "7831862f02",
+        "object_id": [
+            41
+        ],
+        "object_name": "chair",
+        "description": "What is the object used for seating in the room?"
+    },
+    {
+        "scene_id": "7831862f02",
+        "object_id": [
+            11
+        ],
+        "object_name": "shelf",
+        "description": "What item placed near the desk is used to organize books, documents, and decorations?"
+    },
+    {
+        "scene_id": "7831862f02",
+        "object_id": [
+            53,
+            54,
+            56,
+            58,
+            59
+        ],
+        "object_name": "stool",
+        "description": "What is the object used for sitting, positioned near the table?"
+    },
+    {
+        "scene_id": "5748ce6f01",
+        "object_id": [
+            14
+        ],
+        "object_name": "window",
+        "description": "What object near the desk can be opened to let fresh air into the room?"
+    },
+    {
+        "scene_id": "5748ce6f01",
+        "object_id": [
+            7,
+            12,
+            15
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "5748ce6f01",
+        "object_id": [
+            23
+        ],
+        "object_name": "smoke detector",
+        "description": "What is the object located on the ceiling for safety purposes?"
+    },
+    {
+        "scene_id": "5748ce6f01",
+        "object_id": [
+            8,
+            11
+        ],
+        "object_name": "light switch",
+        "description": "When the room's too dim to see your work, which small, but essential, device on the wall would you use to brighten the space?"
+    },
+    {
+        "scene_id": "5748ce6f01",
+        "object_id": [
+            25
+        ],
+        "object_name": "cup",
+        "description": "What item placed next to the computer is used for drinking?"
+    },
+    {
+        "scene_id": "5748ce6f01",
+        "object_id": [
+            20
+        ],
+        "object_name": "air vent",
+        "description": "On the wall, what object is used for allowing air to flow into or out of the room?"
+    },
+    {
+        "scene_id": "5748ce6f01",
+        "object_id": [
+            34
+        ],
+        "object_name": "table",
+        "description": "Where is the piece of furniture used for dining and working located?"
+    },
+    {
+        "scene_id": "5748ce6f01",
+        "object_id": [
+            30,
+            35,
+            10,
+            3,
+            1
+        ],
+        "object_name": "office chair",
+        "description": "For a long day of work requiring many hours of sitting, which piece of furniture offers a supportive seat with mobility around your desk?"
+    },
+    {
+        "scene_id": "5748ce6f01",
+        "object_id": [
+            32,
+            33
+        ],
+        "object_name": "door",
+        "description": "something that provides entry or exit to a room."
+    },
+    {
+        "scene_id": "5748ce6f01",
+        "object_id": [
+            19,
+            22
+        ],
+        "object_name": "ceiling lamp",
+        "description": "an object attached to the ceiling that provides lighting."
+    },
+    {
+        "scene_id": "5748ce6f01",
+        "object_id": [
+            27,
+            13
+        ],
+        "object_name": "whiteboard",
+        "description": "What is the object used for writing and displaying information during meetings?"
+    },
+    {
+        "scene_id": "9071e139d9",
+        "object_id": [
+            151,
+            152,
+            153,
+            154,
+            155,
+            156
+        ],
+        "object_name": "cushion",
+        "description": "what object is used for added comfort and support when sitting on a sofa?"
+    },
+    {
+        "scene_id": "9071e139d9",
+        "object_id": [
+            85,
+            86,
+            93
+        ],
+        "object_name": "window",
+        "description": "What object near the desk can be opened to let fresh air into the room?"
+    },
+    {
+        "scene_id": "9071e139d9",
+        "object_id": [
+            165
+        ],
+        "object_name": "ventilator",
+        "description": "What is the device used for circulating air and maintaining air quality in the room?"
+    },
+    {
+        "scene_id": "9071e139d9",
+        "object_id": [
+            25,
+            38
+        ],
+        "object_name": "poster",
+        "description": "On the wall, what object is used to display information or decoration?"
+    },
+    {
+        "scene_id": "9071e139d9",
+        "object_id": [
+            157,
+            166
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "9071e139d9",
+        "object_id": [
+            132,
+            133
+        ],
+        "object_name": "smoke detector",
+        "description": "On the ceiling, what device is used for detecting smoke and alerting in case of fire?"
+    },
+    {
+        "scene_id": "9071e139d9",
+        "object_id": [
+            56,
+            57,
+            58,
+            59,
+            89
+        ],
+        "object_name": "sofa",
+        "description": "When you want to relax and read a book or simply recline in comfort, which piece of furniture would you choose to sit or lie down on?"
+    },
+    {
+        "scene_id": "9071e139d9",
+        "object_id": [
+            159,
+            160,
+            162
+        ],
+        "object_name": "light switch",
+        "description": "When evening comes and the room grows dim, which device would you flick to illuminate the space?"
+    },
+    {
+        "scene_id": "9071e139d9",
+        "object_id": [
+            70
+        ],
+        "object_name": "whiteboard eraser",
+        "description": "What item is used to wipe off writing from a whiteboard?"
+    },
+    {
+        "scene_id": "9071e139d9",
+        "object_id": [
+            62
+        ],
+        "object_name": "cabinet",
+        "description": "What item placed near the desk is used to organize files and materials?"
+    },
+    {
+        "scene_id": "9071e139d9",
+        "object_id": [
+            74
+        ],
+        "object_name": "clock",
+        "description": "What object indicates hours and minutes in the room?"
+    },
+    {
+        "scene_id": "3864514494",
+        "object_id": [
+            61,
+            92
+        ],
+        "object_name": "window",
+        "description": "In a room, what object allows natural light to enter and provides a view outside?"
+    },
+    {
+        "scene_id": "3864514494",
+        "object_id": [
+            20
+        ],
+        "object_name": "cables",
+        "description": "In the room, what objects are used for transmitting electrical power and signals?"
+    },
+    {
+        "scene_id": "3864514494",
+        "object_id": [
+            12
+        ],
+        "object_name": "microwave",
+        "description": "an appliance used for heating food quickly using electromagnetic radiation"
+    },
+    {
+        "scene_id": "3864514494",
+        "object_id": [
+            63
+        ],
+        "object_name": "tray",
+        "description": "On the counter, what object is used for carrying and serving food and drinks?"
+    },
+    {
+        "scene_id": "3864514494",
+        "object_id": [
+            9
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "3864514494",
+        "object_id": [
+            27,
+            26
+        ],
+        "object_name": "sink",
+        "description": "Where is the basin used for washing hands and face located?"
+    },
+    {
+        "scene_id": "3864514494",
+        "object_id": [
+            6
+        ],
+        "object_name": "doorframe",
+        "description": "the structure surrounding a door that provides support"
+    },
+    {
+        "scene_id": "3864514494",
+        "object_id": [
+            70
+        ],
+        "object_name": "towel",
+        "description": "What is the item hanging in the bathroom for drying hands and body?"
+    },
+    {
+        "scene_id": "3864514494",
+        "object_id": [
+            69
+        ],
+        "object_name": "heater",
+        "description": "If the room gets cold, which electric device might you turn on to warm up the space?"
+    },
+    {
+        "scene_id": "3864514494",
+        "object_id": [
+            81,
+            23,
+            8
+        ],
+        "object_name": "light switch",
+        "description": "When the room's too dim to see your work, which small, but essential, device on the wall would you use to brighten the space?"
+    },
+    {
+        "scene_id": "3864514494",
+        "object_id": [
+            53
+        ],
+        "object_name": "dishwasher",
+        "description": "In the kitchen, what appliance is used for automatically washing dishes?"
+    },
+    {
+        "scene_id": "45b0dac5e3",
+        "object_id": [
+            14
+        ],
+        "object_name": "toilet paper",
+        "description": "Two roll of papers found in bathrooms for wiping after using the toilet."
+    },
+    {
+        "scene_id": "45b0dac5e3",
+        "object_id": [
+            18
+        ],
+        "object_name": "window",
+        "description": "Where is the glass opening that allows light and air into the room?"
+    },
+    {
+        "scene_id": "45b0dac5e3",
+        "object_id": [
+            19
+        ],
+        "object_name": "shower",
+        "description": "What is the object taht is used for dispensing water during bathing"
+    },
+    {
+        "scene_id": "45b0dac5e3",
+        "object_id": [
+            31
+        ],
+        "object_name": "sink",
+        "description": "Where is the basin used for washing hands and face located?"
+    },
+    {
+        "scene_id": "45b0dac5e3",
+        "object_id": [
+            5
+        ],
+        "object_name": "doorframe",
+        "description": "When entering or exiting this room, which structure provides support and defines the transition space?"
+    },
+    {
+        "scene_id": "45b0dac5e3",
+        "object_id": [
+            41,
+            11,
+            8,
+            9,
+            10,
+            17
+        ],
+        "object_name": "towel",
+        "description": "Where is the cloth used for drying located?"
+    },
+    {
+        "scene_id": "45b0dac5e3",
+        "object_id": [
+            36
+        ],
+        "object_name": "heater",
+        "description": "What object in the room is used to heat up the space during cold weather?"
+    },
+    {
+        "scene_id": "45b0dac5e3",
+        "object_id": [
+            7
+        ],
+        "object_name": "light switch",
+        "description": "When evening comes and the room grows dim, which device would you flick to illuminate the space?"
+    },
+    {
+        "scene_id": "45b0dac5e3",
+        "object_id": [
+            2
+        ],
+        "object_name": "cup",
+        "description": "Where is the small container used for drinking beverages?"
+    },
+    {
+        "scene_id": "45b0dac5e3",
+        "object_id": [
+            4
+        ],
+        "object_name": "toothpaste",
+        "description": "What is the item that is applied to the toothbrush for brushing teeth?"
+    },
+    {
+        "scene_id": "45b0dac5e3",
+        "object_id": [
+            15
+        ],
+        "object_name": "toilet brush",
+        "description": "In maintaining a clean and sanitary toilet, which tool is specifically designed for scrubbing inside the bowl?"
+    },
+    {
+        "scene_id": "27dd4da69e",
+        "object_id": [
+            145
+        ],
+        "object_name": "faucet",
+        "description": "Where is the device used to control the flow of water into the sink?"
+    },
+    {
+        "scene_id": "27dd4da69e",
+        "object_id": [
+            82,
+            150,
+            151
+        ],
+        "object_name": "mug",
+        "description": "What is the object found on the desk for holding coffee or tea?"
+    },
+    {
+        "scene_id": "27dd4da69e",
+        "object_id": [
+            72,
+            204,
+            221
+        ],
+        "object_name": "bag",
+        "description": "When coming in from outside, where might you drop off a tote or personal items for temporary storage?"
+    },
+    {
+        "scene_id": "27dd4da69e",
+        "object_id": [
+            156
+        ],
+        "object_name": "power strip",
+        "description": "When you have multiple electronic devices to charge or power at your workstation, which accessory would you use to supply electricity to them all?"
+    },
+    {
+        "scene_id": "27dd4da69e",
+        "object_id": [
+            163
+        ],
+        "object_name": "kettle",
+        "description": "What appliance placed near the coffee machine is used to heat water quickly?"
+    },
+    {
+        "scene_id": "27dd4da69e",
+        "object_id": [
+            99,
+            100,
+            111,
+            203
+        ],
+        "object_name": "backpack",
+        "description": "something used to carry books, supplies, or personal items on your back"
+    },
+    {
+        "scene_id": "27dd4da69e",
+        "object_id": [
+            78
+        ],
+        "object_name": "laptop",
+        "description": "Where is the portable computer used for work and entertainment located?"
+    },
+    {
+        "scene_id": "27dd4da69e",
+        "object_id": [
+            225
+        ],
+        "object_name": "window",
+        "description": "On the wall, what opening allows natural light into the room and provides a view outside?"
+    },
+    {
+        "scene_id": "27dd4da69e",
+        "object_id": [
+            147
+        ],
+        "object_name": "tray",
+        "description": "What item placed near the sink is used to organize and transport dishes?"
+    },
+    {
+        "scene_id": "27dd4da69e",
+        "object_id": [
+            136
+        ],
+        "object_name": "cloth hanger",
+        "description": "What is the item placed in the closet that keeps garments wrinkle-free?"
+    },
+    {
+        "scene_id": "27dd4da69e",
+        "object_id": [
+            104,
+            105,
+            161,
+            162
+        ],
+        "object_name": "light switch",
+        "description": "When evening comes and the room grows dim, which device would you flick to illuminate the space?"
+    },
+    {
+        "scene_id": "c50d2d1d42",
+        "object_id": [
+            63,
+            83,
+            34
+        ],
+        "object_name": "window",
+        "description": "If you want to let in natural light and fresh air or gaze at the stars at night, which part of the room would you open?"
+    },
+    {
+        "scene_id": "c50d2d1d42",
+        "object_id": [
+            37,
+            26
+        ],
+        "object_name": "storage cabinet",
+        "description": "What is the object used for keeping documents and office materials organized?"
+    },
+    {
+        "scene_id": "c50d2d1d42",
+        "object_id": [
+            36
+        ],
+        "object_name": "cardboard box",
+        "description": "In the corner of the room, what object is used for storing and transporting items?"
+    },
+    {
+        "scene_id": "c50d2d1d42",
+        "object_id": [
+            78,
+            77,
+            40,
+            33,
+            31
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "c50d2d1d42",
+        "object_id": [
+            57,
+            54
+        ],
+        "object_name": "mug",
+        "description": "Where is the container used for drinking hot beverages placed?"
+    },
+    {
+        "scene_id": "c50d2d1d42",
+        "object_id": [
+            1
+        ],
+        "object_name": "doorframe",
+        "description": "When entering or exiting this room, which structure provides support and defines the transition space?"
+    },
+    {
+        "scene_id": "c50d2d1d42",
+        "object_id": [
+            68,
+            51
+        ],
+        "object_name": "heater",
+        "description": "What object in the room is used to heat up the space during cold weather?"
+    },
+    {
+        "scene_id": "c50d2d1d42",
+        "object_id": [
+            42
+        ],
+        "object_name": "light switch",
+        "description": "When evening comes and the room grows dim, which device would you flick to illuminate the space?"
+    },
+    {
+        "scene_id": "c50d2d1d42",
+        "object_id": [
+            15,
+            2
+        ],
+        "object_name": "keyboard",
+        "description": "What item placed in front of the monitor is used to enter text and commands?"
+    },
+    {
+        "scene_id": "c50d2d1d42",
+        "object_id": [
+            80
+        ],
+        "object_name": "coaster",
+        "description": "Where is the small mat placed under a cup to protect the surface?"
+    },
+    {
+        "scene_id": "c50d2d1d42",
+        "object_id": [
+            24,
+            23,
+            22,
+            25
+        ],
+        "object_name": "office chair",
+        "description": "Where is the chair used for sitting at a desk found?"
+    },
+    {
+        "scene_id": "31a2c91c43",
+        "object_id": [
+            34
+        ],
+        "object_name": "toilet paper",
+        "description": "Two roll of papers found in bathrooms for wiping after using the toilet."
+    },
+    {
+        "scene_id": "31a2c91c43",
+        "object_id": [
+            54
+        ],
+        "object_name": "window",
+        "description": "In a room, what object allows natural light to enter and provides a view outside?"
+    },
+    {
+        "scene_id": "31a2c91c43",
+        "object_id": [
+            50
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "31a2c91c43",
+        "object_id": [
+            39
+        ],
+        "object_name": "shower",
+        "description": "What is the object taht is used for dispensing water during bathing"
+    },
+    {
+        "scene_id": "31a2c91c43",
+        "object_id": [
+            8
+        ],
+        "object_name": "sink",
+        "description": "After eating, where would you go to wash the dishes in this room?"
+    },
+    {
+        "scene_id": "31a2c91c43",
+        "object_id": [
+            18
+        ],
+        "object_name": "broom",
+        "description": "What item placed in the corner is used to gather dirt and dust?"
+    },
+    {
+        "scene_id": "31a2c91c43",
+        "object_id": [
+            56
+        ],
+        "object_name": "toothbrush",
+        "description": "Where is the tool used for cleaning teeth?"
+    },
+    {
+        "scene_id": "31a2c91c43",
+        "object_id": [
+            29,
+            28
+        ],
+        "object_name": "towel",
+        "description": "What is the item hanging in the bathroom for drying hands and body?"
+    },
+    {
+        "scene_id": "31a2c91c43",
+        "object_id": [
+            21
+        ],
+        "object_name": "doorframe",
+        "description": "the structure surrounding a door that provides support"
+    },
+    {
+        "scene_id": "31a2c91c43",
+        "object_id": [
+            30
+        ],
+        "object_name": "light switch",
+        "description": "When the room's too dim to see your work, which small, but essential, device on the wall would you use to brighten the space?"
+    },
+    {
+        "scene_id": "31a2c91c43",
+        "object_id": [
+            11
+        ],
+        "object_name": "toothbrush holder",
+        "description": "What item holds the toothbrushes upright when not in use?"
+    },
+    {
+        "scene_id": "c49a8c6cff",
+        "object_id": [
+            59
+        ],
+        "object_name": "window",
+        "description": "Where is the glass pane located on the wall that can be opened or closed for ventilation?"
+    },
+    {
+        "scene_id": "c49a8c6cff",
+        "object_id": [
+            84,
+            98
+        ],
+        "object_name": "power socket",
+        "description": "In order to plug in and power your devices, which wall insert would you seek out to supply the necessary electricity?"
+    },
+    {
+        "scene_id": "c49a8c6cff",
+        "object_id": [
+            35,
+            37
+        ],
+        "object_name": "plant",
+        "description": "Where is the greenery used for decoration and air purification located?"
+    },
+    {
+        "scene_id": "c49a8c6cff",
+        "object_id": [
+            100
+        ],
+        "object_name": "smoke detector",
+        "description": "On the ceiling, what device is used for detecting smoke and alerting in case of fire?"
+    },
+    {
+        "scene_id": "c49a8c6cff",
+        "object_id": [
+            51
+        ],
+        "object_name": "mouse pad",
+        "description": "When using the mouse for your computer, which pad would provide a smooth surface for it?"
+    },
+    {
+        "scene_id": "c49a8c6cff",
+        "object_id": [
+            102
+        ],
+        "object_name": "jacket",
+        "description": "What piece of clothing placed on the back of the chair is used for staying warm?"
+    },
+    {
+        "scene_id": "c49a8c6cff",
+        "object_id": [
+            4,
+            6,
+            8,
+            11,
+            33,
+            39
+        ],
+        "object_name": "picture",
+        "description": "What item hanging above the desk is used to showcase memories or decorations?"
+    }
+]
