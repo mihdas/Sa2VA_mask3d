@@ -88,7 +88,7 @@ This projected vector is the **prompt embedding** — the handoff between the tw
 ![Example Segmentation Mask](assets/images/pc.png)<br>
 The Point Cloud from the same viewpoint as the image<br>
 ![Example Segmentation Mask](assets/images/correspondences.png)<br>
-The point and pixel correspondences
+The point and pixel correspondences<br>
 ![Example Segmentation Mask](assets/images/image.png)<br>
 An image frame<br>
 ![Example Segmentation Mask](assets/images/pca.png)<br>
