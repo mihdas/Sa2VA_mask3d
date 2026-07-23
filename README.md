@@ -1,12 +1,12 @@
 # Sa2VA-Mask3D 
-
+![Architecture](assets/images/sa2vamask3d.png)
 ## The one-sentence version
 
 Sa2VA lets you say *"the chair next to the window"* and get back a mask of that
 object in a video. We wanted the same thing in 3D, so we took Sa2VA and swapped
 out its 2D mask generator (SAM2) for **Mask3D**, which works on point clouds.
 
-![Example Segmentation Mask](assets/images/example.png)
+![Example Segmentation Mask](assets/images/example.png)<br>
 An example of a 3D Referring Expression and segmentation mask pair
 
 ## What's new 
@@ -85,11 +85,16 @@ token space.
 From there Sa2VA takes over. The LLM emits a `[SEG]` token, and that token's hidden
 state is linearly projected from the LLM's dimension down to Mask3D's dimension.
 This projected vector is the **prompt embedding** — the handoff between the two halves.
-![Example Segmentation Mask](assets/images/pc.png)
-![Example Segmentation Mask](assets/images/correspondences.png)
-![Example Segmentation Mask](assets/images/image.png)
-![Example Segmentation Mask](assets/images/pca.png)
-![Example Segmentation Mask](assets/images/mllm.png)
+![Example Segmentation Mask](assets/images/pc.png)<br>
+The Point Cloud from the same viewpoint as the image<br>
+![Example Segmentation Mask](assets/images/correspondences.png)<br>
+The point and pixel correspondences
+![Example Segmentation Mask](assets/images/image.png)<br>
+An image frame<br>
+![Example Segmentation Mask](assets/images/pca.png)<br>
+PCA Analysis of the features<br>
+![Example Segmentation Mask](assets/images/mllm.png)<br>
+MLLM Architecture<br>
 
 ---
 
@@ -140,7 +145,7 @@ Turning the refined query into a mask is three operations:
 3. **Sigmoid + threshold** — `m_i = σ(s_i)`, then cut at 0.5 for a binary mask.
 
 ---
-![Example Segmentation Mask](assets/images/sa2vamask3d.jpg)
+
 
 ## Part 3: Training objective
 
