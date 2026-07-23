@@ -1,217 +1,168 @@
-# Sa2VA: Marrying SAM2 with LLaVA for Dense Grounded Understanding of Images and Videos
+# Sa2VA-Mask3D 
 
-[\[🏠 Sa2VA\]](https://lxtgh.github.io/project/sa2va)  [\[📜 arXiv\]](https://arxiv.org/abs/2501.04001) [\[🤗 HuggingFace\]](https://huggingface.co/collections/ByteDance/sa2va-model-zoo-677e3084d71b5f108d00e093) [\[🎥 Introduction\]]() [\[🧑‍💻 GitHub\]](https://github.com/magic-research/Sa2VA) [\[Gradio Demo (Ours internal: Sa2VA-4B)\]](https://5512470799b6b35fbc.gradio.live/) [\[Gradio Demo (By HuggingFace Offical)\]](https://huggingface.co/spaces/fffiloni/Sa2VA-simple-demo)
+## The one-sentence version
 
+Sa2VA lets you say *"the chair next to the window"* and get back a mask of that
+object in a video. We wanted the same thing in 3D, so we took Sa2VA and swapped
+out its 2D mask generator (SAM2) for **Mask3D**, which works on point clouds.
 
-[**Haobo Yuan**](https://yuanhaobo.me/)<sup>1*</sup> · [**Xiangtai Li**](https://lxtgh.github.io/)<sup>2*&dagger;</sup> · [**Tao Zhang**](https://zhang-tao-whu.github.io/)<sup>2,3*</sup> · [**Zilong Huang**](http://speedinghzl.github.io/)<sup>2</sup> · [**Shilin Xu**](https://xushilin1.github.io/)<sup>4</sup> ·[**Shunping Ji**](https://scholar.google.com/citations?user=FjoRmF4AAAAJ&hl=en)<sup>3</sup> ·[**Yunhai Tong**](https://scholar.google.com/citations?user=T4gqdPkAAAAJ&hl=zh-CN)<sup>4</sup> ·
+![Example Segmentation Mask](assets/images/example.png)
+An example of a 3D Referring Expression and segmentation mask pair
 
-[**Lu Qi**](https://luqi.info/)<sup>2</sup> · [**Jiashi Feng**](https://scholar.google.com/citations?user=Q8iay0gAAAAJ&hl=en)<sup>2</sup> · [**Ming-Hsuan Yang**](https://faculty.ucmerced.edu/mhyang/)<sup>1</sup>
+## What's new 
 
-<sup>1</sup>UC Merced&emsp;&emsp;&emsp;&emsp;<sup>2</sup>ByteDance Seed&emsp;&emsp;&emsp;&emsp;<sup>3</sup>WHU&emsp;&emsp;&emsp;&emsp;<sup>4</sup>PKU
+Mask3D is normally used as a *proposal generator*: it spits out a fixed number of segmentation masks for 
+candidate objects (say 100), and something else afterwards picks the right one.
+Most 3D referring-segmentation methods work this way.
+We use Mask3D as a **pure segmenter** where it is told what to
+look for and returns exactly one mask. 
 
-&dagger; project lead&emsp;* the first three authors equally contribute to the work.
+---
 
-![Teaser](assets/images/teaser.jpg)
+## Part 1: The MLLM (the "understanding" half)
 
-## Opensource progress
+**Inputs:** video frames, the camera pose for each frame (extrinsics + intrinsics),
+and the text prompt.
 
-- [x] Release Open-sourced training datasets.
-- [x] Release Ref-SAM-v dataset.
-- [x] Release evaluation code for each dataset. 
-- [x] Release 1B,4B,8B, 26B model.
-- [x] Release training code.
-- [x] Release inference and test code.
-- [x] Release demo code. 
+It follows the standard **ViT → MLP → LLM** recipe:
 
+1. A Vision Transformer turns each frame into patch features.
+2. An MLP projects those into the LLM's token space.
+3. The LLM reads them alongside the text.
 
-## Overview
+We only care about segmentation, so visual prompts (click/box inputs) are turned
+off — though the hook is still there, which would let someone later build a single
+model that does both 3D segmentation *and* question answering.
 
-This repository contains the code for the paper "Sa2VA: Marrying SAM2 with LLaVA for Dense Grounded Understanding of Images and Videos".
+The problem: a ViT looking at flat frames has no idea about 3D geometry. That's
+what the projection module fixes.
 
-Sa2VA is the first unified model for the dense grounded understanding of both images and videos. Unlike existing multi-modal large language models, which are often limited to specific modalities and tasks, Sa2VA supports a wide range of image and video tasks, including referring segmentation and conversation, with minimal one-shot instruction tuning. Sa2VA combines SAM-2, a foundation video segmentation model, with LLaVA, an advanced vision-language model, and unifies text, image, and video into a shared LLM token space.
+### 1.1 Projection Module — putting 3D knowledge into 2D frames
 
+The idea is simple: **paint 3D features onto the image**.
 
-## Model Zoo
+**Step 1: get 3D features.** Run the point cloud through Mask3D's frozen backbone
+(a Minkowski ResUNet). Out comes a feature vector for each of the `N` points.
+The backbone gives features at several resolutions; we only take the finest one,
+because coarser ones would leave the image mostly empty.
 
-We provide the following models:
-| Model Name |                             Base MLLM                             |                                 Language Part                                 |                       HF Link                        |
-|:----------:|:-----------------------------------------------------------------:|:-----------------------------------------------------------------------------:|:----------------------------------------------------:|
-|  Sa2VA-1B  | [InternVL2.0-1B](https://huggingface.co/OpenGVLab/InternVL2-1B) |   [Qwen2-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2-0.5B-Instruct)    | [🤗 link](https://huggingface.co/ByteDance/Sa2VA-1B) |
-|  Sa2VA-4B  | [InternVL2.5-4B](https://huggingface.co/OpenGVLab/InternVL2_5-4B) |    [Qwen2.5-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct)     | [🤗 link](https://huggingface.co/ByteDance/Sa2VA-4B) |
-|  Sa2VA-8B  | [InternVL2.5-8B](https://huggingface.co/OpenGVLab/InternVL2_5-8B) |  [internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-7b-chat)   | [🤗 link](https://huggingface.co/ByteDance/Sa2VA-8B) |
-|  Sa2VA-26B | [InternVL2.5-26B](https://huggingface.co/OpenGVLab/InternVL2_5-26B) |  [internlm2_5-7b-chat](https://huggingface.co/internlm/internlm2_5-20b-chat)   | [🤗 link](https://huggingface.co/ByteDance/Sa2VA-26B) |
+**Step 2: figure out where each 3D point lands in the image.** This is textbook
+camera projection:
 
-## 🤗 Gradio Demos
+| Step | What happens |
+|---|---|
+| World → camera | Multiply by the extrinsic matrix `E = [R\|t]` (rotation + translation) |
+| Camera → image plane | Multiply by the intrinsic matrix `K` (focal lengths, principal point, skew) |
+| Perspective divide | Divide by depth `w` to get pixel coords `u = u'/w`, `v = v'/w` |
+| Round | Snap `u, v` to the nearest whole pixel |
 
-We provide a script that implements interactive chat using gradio, which requires installing `gradio==4.42.0`. You can try it to build a local chat interface quickly.
-```shell
-PYTHONPATH=. python projects/llava_sam2/gradio/app.py ByteDance/Sa2VA-4B
+Now every 3D point knows which pixel it belongs to.
+
+**Step 3: build the feature volume.** Make an empty `H × W × D_f` grid (image
+height × width × feature dimension), all zeros. For every point that landed on
+pixel `(u, v)`, drop its 3D feature vector into that slot. Pixels no point hit stay
+zero.
+
+Result: an image-shaped tensor carrying 3D information.
+
+### 1.2 Pixel Unshuffle — making the sizes line up
+
+The feature volume is at full image resolution; the ViT works on a 16×16 grid of
+patches. Instead of throwing information away, we fold it into the channels:
+
+1. **Max-pool** down to `rH_v × rW_v` (channels untouched).
+2. **Stack** each `r × r` block along the channel axis → `H_v × W_v × r²D_f`.
+3. **Linear projection + normalization** to match the ViT's channel count.
+
+In our setup `r = 2` and `H_v = W_v = 16`. So: resize to 32×32, then stack each 2×2
+block into one position which gives 16×16 patches with 2048 features each. 
+### 1.3 Fusion
+
+Reshape the 3D feature volume to match the ViT features and **add them together**.
+with plain element-wise addition. The sum goes through the MLP into LLM
+token space.
+
+From there Sa2VA takes over. The LLM emits a `[SEG]` token, and that token's hidden
+state is linearly projected from the LLM's dimension down to Mask3D's dimension.
+This projected vector is the **prompt embedding** — the handoff between the two halves.
+![Example Segmentation Mask](assets/images/pc.png)
+![Example Segmentation Mask](assets/images/correspondences.png)
+![Example Segmentation Mask](assets/images/image.png)
+![Example Segmentation Mask](assets/images/pca.png)
+![Example Segmentation Mask](assets/images/mllm.png)
+
+---
+
+## Part 2: Mask3D (the "segmenting" half)
+
+**Inputs:** the raw point cloud, plus the prompt embedding from the MLLM.
+
+The trick: the prompt embedding *is* the instance query. Where stock Mask3D
+generates ~100 queries and hopes one matches, we hand it exactly one query that
+already encodes what the user asked for.
+
+### 2.1 Query initialization
+
+Our checkpoint was trained with **non-parametric queries**, so we keep that setting.
+We modify Mask3D so it no longer generates queries at all — it only uses the one
+we give it.
+
+### 2.2 Query refinement
+
+The query passes through Transformer decoder layers, alternating:
+
+- **Cross-attention** against the backbone's voxel features (projected to keys and
+  values `K, V ∈ R^{M_r × D_f}`), with Fourier positional encodings of the voxel
+  coordinates added to the keys.
+- **Self-attention** — which is degenerate with a single query, but the formulation
+  is kept unchanged.
+
+Each layer attends to a different resolution, coarse to fine.
+
+> **A finding worth flagging:** the original Mask3D uses 3 decoder layers. We use
+> **2**. With 3, the model stops picking out the target and instead segments
+> *everything* in the scene.
+>
+> Our guess: the checkpoint was trained to refine queries initialized to **zero**.
+> Our query arrives already loaded with scene and language information, and the
+> extra refinement destabilizes it.
+
+With 2 layers and 4 feature scales, one dedicated layer per scale means **8
+refinement steps total**, with weights shared across the two passes.
+
+### 2.3 Mask generation
+
+Turning the refined query into a mask is three operations:
+
+1. **MLP** — map the query into the same space as the finest backbone features.
+2. **Dot product** — score every voxel: `s_i = ⟨F_{0,i}, h⟩`. High score = looks
+   like what we're after.
+3. **Sigmoid + threshold** — `m_i = σ(s_i)`, then cut at 0.5 for a binary mask.
+
+---
+![Example Segmentation Mask](assets/images/sa2vamask3d.jpg)
+
+## Part 3: Training objective
+
+One combined loss, following Sa2VA:
+
+```
+L_instruction = L_text + L_mask
+L_mask        = L_CE + L_DICE
 ```
 
-## 🚀 Quick Start
+**`L_text`** — standard negative log-likelihood over the target token sequence,
+teacher-forced on previous ground-truth tokens.
 
-Our Sa2VA model is available on 🤗HuggingFace. With very few steps, you can try it with your own data. You can install the `demo/requirements.txt` to avoid training-only packages.
+**`L_CE`** — pixel-wise binary cross-entropy, averaged over all elements. Handles
+per-voxel correctness.
 
+**`L_DICE`** — measures overlap between prediction and ground truth as a whole,
+with a small `ε` in numerator and denominator to avoid dividing by zero.
 
-**Option1 - scripts:**
+Why both mask losses? Cross-entropy alone struggles when the target object is a
+tiny fraction of the scene — it can score well by predicting "background"
+everywhere. Dice cares about the shape of the overlap, so it pushes back on that.
 
-Supposing you have a folder (`PATH_TO_FOLDER`) that contains images of a video, you can use the following script to chat with the Sa2VA model or segment the objects in the videos.
-
-```bash
-> cd scripts
-> python demo/demo.py PATH_TO_FOLDER --model_path ByteDance/Sa2VA-8B --work-dir OUTPUT_DIR --text "<image>Please describe the video content."
-```
-
-If the output contains the segmentation results, the results will be saved to `OUTPUT_DIR`.
-
-**Option2 - Jupter Notebook:**
-
-Please refer to `demo.ipynb`.
-
-## 🎥 Demo
-
-<details open>
-<summary>Demo 1</summary>
-Input Video (Source: La La Land 2016):
-
-![Error](assets/videos/exp_1.gif)
-
-Instruction: "Please segment the girl wearing the yellow dress."
-</details>
-
-<details open>
-<summary>Demo 2</summary>
-Input Video (Source: La La Land 2016):
-
-![Error](assets/videos/exp_2.gif)
-
-Instruction: "Please segment the main character."
-</details>
-
-
-<details open>
-<summary>Demo 3</summary>
-Input Video (Source: Internet):
-
-![Error](assets/videos/apt_exp_1_all.gif)
-
-Instruction: "Please segment the person wearing sun glasses."
-</details>
-
-
-<details open>
-<summary>Demo 4</summary>
-Input Video (Source: Internet):
-
-![Error](assets/videos/apt_exp_2_all.gif)
-
-Instruction: "Instruction: "Please segment the singing girl."
-</details>
-
-<details open>
-<summary>Demo 5</summary>
-Input Video:
-
-![Error](assets/videos/gf_exp1.gif)
-
-Instruction: "What is the atmosphere of the scene?"
-
-Answer: "The scene has a dark and mysterious atmosphere, with the men dressed in suits and ties, and the dimly lit room."
-</details>
-
-
-## Training
-<details open>
-<summary>Installation</summary>
-
-1. Please install the python and pytorch first:
-```bash
-> conda create -n vlm python=3.10
-> conda activate vlm
-> conda install pytorch==2.3.1 torchvision==0.18.1 pytorch-cuda=12.1 cuda -c pytorch  -c "nvidia/label/cuda-12.1.0" -c "nvidia/label/cuda-12.1.1"
-```
-
-2. Install mmcv:
-```bash
-> pip install mmcv==2.2.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.3/index.html
-```
-
-3. Install other dependencies:
-```bash
-> pip install -r requirements.txt
-```
-</details>
-
-<details open>
-<summary>Pretrained Model Preparation</summary>
-
-You are expected to download the following pretrained models and place them in the `./pretrained` directory:
-- [sam2_hiera_large.pt](https://huggingface.co/facebook/sam2-hiera-large)
-- [InternVL2_5-4B](https://huggingface.co/OpenGVLab/InternVL2_5-4B)
-
-</details>
-
-<details open>
-<summary>Data Preparation</summary>
-
-Please download the training datasets and place them in the `data` directory. The download link is [here](https://huggingface.co/datasets/Dense-World/Sa2VA-Training).
-
-Please directly put the zip files into the `data` directory and unzip them. For example, you can download the `video_datas_mevis.zip` and unzip it in the `data` directory like:
-```bash
-> unzip video_datas_mevis.zip
-```
-
-The final data structure should be like:
-```
-data/
-├── video_datas
-|   ├── revos
-|   ├── mevis
-|   ├── revos
-|   └── davis17
-├── glamm_data
-|   ├── images
-|   ├── annotations
-├── osprey-724k
-|   ├── Osprey-724K
-|   ├── coco
-├── llava_data
-|   ├── llava_images
-|   ├── LLaVA-Instruct-150K
-|   ├── LLaVA-Pretrain
-├── ref_sav
-|   ├── sam_v_full
-|   ├── Ref-SAV.json
-```
-`sam_v_full` is the SA-V dataset, which is not included in the download link. You can download it from [here](https://ai.meta.com/datasets/segment-anything-video/).
-</details>
-
-<details open>
-<summary>Training Script</summary>
-
-Please run the following script to train:
-```bash
-> bash tools/dist.sh train projects/llava_sam2/configs/sa2va_4b.py 8
-```
-</details>
-
-<details open>
-<summary>Convert trained model to huggingface format</summary>
-
-Please run the following script to convert:
-```bash
-> python projects/llava_sam2/hf/convert_to_hf.py projects/llava_sam2/configs/sa2va_4b.py --pth-model PATH_TO_PTH_MODEL --save-path PATH_TO_SAVE_FOLDER
-```
-</details>
-
-
-## References
-If you find this repository useful, please consider referring to he following paper:
-```
-@article{sa2va,
-  title={Sa2VA: Marrying SAM2 with LLaVA for Dense Grounded Understanding of Images and Videos},
-  author={Yuan, Haobo and Li, Xiangtai and Zhang, Tao and Huang, Zilong and Xu, Shilin and Ji, Shunping and Tong, Yunhai and Qi, Lu and Feng, Jiashi and Yang, Ming-Hsuan},
-  journal={arXiv},
-  year={2025}
-}
-```
+---
+*
